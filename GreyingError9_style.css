@@ -24,7 +24,7 @@ body {
 	font-size: 12px;
 	line-height: 18px; 
 	background-color: #0a6298; 
-	background-image: url(images/GreyingError9_body.png);
+	background-image: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/qC64McD/Greying-Error9-body.png);
 	background-repeat: no-repeat;
 	background-position: center top;
 }
@@ -62,7 +62,7 @@ img { margin: 0; padding: 0; border: 0; }
 
 p { margin: 0 0 10px 0; padding: 0 }
 em { color: #fff }
-hr { clear: both; margin-bottom: 40px; padding-top: 28px; border: none; background: url(images/GreyingError9_hr_divider.png) center bottom no-repeat }
+hr { clear: both; margin-bottom: 40px; padding-top: 28px; border: none; background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/vB3ZnXB/Greying-Error9-hr-divider.png) center bottom no-repeat }
 
 label { display: block; }
 input { margin-bottom: 10px }
@@ -71,13 +71,13 @@ a:link, a:visited { color:#fff; text-decoration: none}
 a:hover { text-decoration:underline }
 a:hover,a:active { outline:none }
 
-a.more { display: inline-block; text-decoration: none; margin-top: 15px; color: #00385b; width: 106px; height: 24px; line-height: 24px; text-align: center; background: url(images/GreyingError9_more.png) }
+a.more { display: inline-block; text-decoration: none; margin-top: 15px; color: #00385b; width: 106px; height: 24px; line-height: 24px; text-align: center; background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/pzVXZkP/Greying-Error9-more.png) }
 
 ul.nobullet { margin: 0; padding: 0; list-style: none }
 ul.nobullet li { margin: 0; padding: 0 }
 
 ul.list_bullet { margin: 10px 0 10px 15px; padding: 0; list-style: none }
-ul.list_bullet li { color:#fff; margin: 0 0 7px 0; padding: 0 0 0 20px; background: url(images/GreyingError9_bullet.png) no-repeat scroll 0 5px  }
+ul.list_bullet li { color:#fff; margin: 0 0 7px 0; padding: 0 0 0 20px; background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/hLcMNvn/Greying-Error9-bullet.png) no-repeat scroll 0 5px  }
 ul.list_bullet li a { color: #fff; font-weight: normal; text-decoration: none }
 ul.list_bullet li a:hover { color: #fff }
 
@@ -112,7 +112,7 @@ ul.list_bullet li a:hover { color: #fff }
 	position: relative;
 	width: 100%;
 	height: 75px;
-	background: url(images/GreyingError9_header.png);
+	background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/fxztvgg/Greying-Error9-header.png);
 	z-index: 3;
 }
 #GreyingError9_slider {
@@ -122,7 +122,7 @@ ul.list_bullet li a:hover { color: #fff }
 	margin-top: -7px;
 	height: 292px;
 	padding: 60px 40px;
-	background: url(images/GreyingError9_slider.png);
+	background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/0YQLP8h/Greying-Error9-slider.png);
 	z-index: 2;
 }
 #GreyingError9_middle {
@@ -131,7 +131,7 @@ ul.list_bullet li a:hover { color: #fff }
 	margin-top: -5px;
 	height: 118px;
 	padding: 30px 40px;
-	background: url(images/GreyingError9_middle.png);
+	background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/bbfPC2Q/Greying-Error9-middle.png);
 	z-index: 1;
 	color: #666;
 }
@@ -155,7 +155,7 @@ ul.list_bullet li a:hover { color: #fff }
 	padding: 50px;
 }
 
-#GreyingError9_search { float: right; width: 280px; height: 30px; background:url(images/GreyingError9_CSSprite.png) -700px -0px;}
+#GreyingError9_search { float: right; width: 280px; height: 30px; background:url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/88nbnPF/Greying-Error9-CSSprite.png) -700px -0px;}
 #GreyingError9_search form {
 	margin: 0;
 	padding: 0;
@@ -194,12 +194,12 @@ ul.list_bullet li a:hover { color: #fff }
 	height: 30px; 
 	color: #acacac; 
 	text-indent: -10000px; 
-	background:url(images/GreyingError9_CSSprite.png) no-repeat -5px -61px ;
+	background:url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/88nbnPF/Greying-Error9-CSSprite.png) no-repeat -5px -61px ;
 }
 
 #GreyingError9_menu { float: left; width: 660px; }
 #GreyingError9_menu ul { margin: 0; padding: 4px 0; list-style: none }
-#GreyingError9_menu ul li { display: block; float: left; margin: 0; padding: 8px 12px 8px 10px; background: url(images/GreyingError9_CSSprite.png)no-repeat right center -740px -39px ; }
+#GreyingError9_menu ul li { display: block; float: left; margin: 0; padding: 8px 12px 8px 10px; background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/N6tvdxM/Greying-Error-Quick-Sprite-Box.png)no-repeat -369px -50px ; }
 #GreyingError9_menu ul li a { 
 	display: block; 
 	float: left; 
@@ -213,14 +213,14 @@ ul.list_bullet li a:hover { color: #fff }
 } 
 
 #GreyingError9_menu ul li a:hover, #GreyingError9_menu ul li a.selected { color: #333 }
-#GreyingError9_menu ul li a.home { background: url(images/GreyingError9_CSSprite.png) no-repeat -262px -48px; }
-#GreyingError9_menu ul li a.services { background: url(images/GreyingError9_CSSprite.png) no-repeat -387px -48px; }
-#GreyingError9_menu ul li a.gallery { background: url(images/GreyingError9_CSSprite.png) no-repeat -508px -48px; }
-#GreyingError9_menu ul li a.news { background: url(images/GreyingError9_CSSprite.png) no-repeat -624px -48px; }
-#GreyingError9_menu ul li a.contact { background: url(images/GreyingError9_CSSprite.png) no-repeat -752px -48px; }
+#GreyingError9_menu ul li a.home { background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/88nbnPF/Greying-Error9-CSSprite.png) no-repeat -262px -48px; }
+#GreyingError9_menu ul li a.services { background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/88nbnPF/Greying-Error9-CSSprite.png) no-repeat -387px -48px; }
+#GreyingError9_menu ul li a.gallery { background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/88nbnPF/Greying-Error9-CSSprite.png) no-repeat -508px -48px; }
+#GreyingError9_menu ul li a.news { background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/88nbnPF/Greying-Error9-CSSprite.png) no-repeat -624px -48px; }
+#GreyingError9_menu ul li a.contact { background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/88nbnPF/Greying-Error9-CSSprite.png) no-repeat -752px -48px; }
 #GreyingError9_menu ul li.last { background: none }
 
-#GreyingError9_middle .col_3 { width: 260px; margin-right: 30px; padding-right: 30px; background: url(images/GreyingError9_middle_divider.png) no-repeat right center }
+#GreyingError9_middle .col_3 { width: 260px; margin-right: 24px; padding-right: 24px; background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/88nbnPF/Greying-Error9-CSSprite.png) no-repeat -324px -145px }}
 #GreyingError9_middle .no_padding_right { padding-right: 0; background: none }
 #GreyingError9_middle h2 { color: #333; font-size: 20px; margin-bottom: 20px }
 #GreyingError9_middle h2 a { color: #333 }
@@ -264,7 +264,8 @@ background: #fff;
 color: #ccc;
 width: 266px; 
 line-height: 1.2em;
-background: url(images/caption_background.png) repeat;
+background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/GvxY5HY/caption-background.png
+) repeat;
 }
 #gallery li span h4 { color: #fff; margin-bottom: 10px; font-size: 14px }
 #gallery li a:hover { text-decoration: none }
@@ -274,7 +275,7 @@ background: url(images/caption_background.png) repeat;
 .post_list h2 { font-size: 20px; line-height: 24px; margin-bottom: 10px }
 
 
-.post { clear: both; margin: 0 0 40px 0; padding: 0 0 40px 0; background: url(images/GreyingError9_CSSprite.png) repeat-x bottom -314px -118px; }
+.post { clear: both; margin: 0 0 40px 0; padding: 0 0 40px 0; background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/88nbnPF/Greying-Error9-CSSprite.png) repeat-x bottom -314px -118px; }
 .post h2 { margin-bottom: 30px }
 .post p { margin-bottom: 15px }
 .comment_list { margin: 0 0 40px; padding: 0; list-style: none }
@@ -375,7 +376,7 @@ ul.rc_comment li span { color: #fff }
 	width: 900px; 
 	height: 52px; 
 	line-height: 52px; 
-	background: url(images/GreyingError9_copyright.png) center 
+	background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/bgQ7w91/Greying-Error9-copyright.png) center 
 }
 
 .GreyingError9_paging { margin: 0 0 20px; padding: 0 }
