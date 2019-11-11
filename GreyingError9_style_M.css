@@ -228,16 +228,18 @@ ul.list_bullet li a:hover { color: #fff }
 .GreyingError9_joini { background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/D9ps0DX/Greying-Error9-Full-Site-Sprite-M-C.png) no-repeat -276px -694px; }
 .GreyingError9_discordi { background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/D9ps0DX/Greying-Error9-Full-Site-Sprite-M-C.png) no-repeat -7px -694px; }
 .GreyingError9_nineneinsi { background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/D9ps0DX/Greying-Error9-Full-Site-Sprite-M-C.png) no-repeat -190px -694px; }
-.GreyingError9_bravei { width: 160px; height:160px; background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/0Mrx7Js/Brave-Meta.png) ; }
-
-.GreyingError9_nknowsi { width : 100px; height: 75px; background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/8M3Bgm9/9-Knows-Icon.png) no-repeat ;}
-.GreyingError9_bitshooti { width : 100px; height: 75px; background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/jZ4LS4d/Bit-Shoot-Icon.png) no-repeat ; 
-}
+.GreyingError9_archivi { background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/D9ps0DX/Greying-Error9-Full-Site-Sprite-M-C.png) no-repeat -98px -692px; }
+.GreyingError9_ratedi { background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/Jcrwvt8/GtIcon.png) }
 
 .bots { margin-bottom: 15px; padding-bottom: 15px; border-bottom: 1px solid #054b77 }
 .bots .date { color: #fff }
 .bots a { display: block; margin-bottom: 10px; font-weight: 700 }
 .bots p { font-size: 11px }
+
+.GreyingError9_nknowsi { width : 100px; height: 75px; background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/8M3Bgm9/9-Knows-Icon.png) no-repeat ; }
+.GreyingError9_bitshooti { width : 100px; height: 75px; background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/jZ4LS4d/Bit-Shoot-Icon.png) no-repeat ; }
+.GreyingError9_bravei { width: 160px; height:160px; background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/0Mrx7Js/Brave-Meta.png) ; 
+}
 
 .testimonial {
 	text-align: center;
@@ -387,6 +389,17 @@ ul.rc_comment li span { color: #fff }
 	background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/D9ps0DX/Greying-Error9-Full-Site-Sprite-M-C.png) 0px -628px ;
 }
 
+ .eth_button {
+    position: relative;
+    display: inline-block;
+    padding: 0.2em 0.4em;
+    border-radius: 3px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #FFFF00;
+    background: #000000 ;
+}
+
 .GreyingError9_paging { margin: 0 0 20px; padding: 0 }
 .GreyingError9_paging ul { margin: 0; padding: 0; list-style: none }
 .GreyingError9_paging ul li { margin: 0; padding: 0; display: inline }
@@ -401,3 +414,4 @@ ul.rc_comment li span { color: #fff }
 	border: 1px solid #002942
 }
 .GreyingError9_paging ul li a:hover { background: #fff; color: #333 }
+
