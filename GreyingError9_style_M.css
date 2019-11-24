@@ -46,6 +46,9 @@ h6 { font-size:12px }
 .left { float:left }
 .right { float:right }
 .clear { clear: both }
+.padthis5 { padding-top: 5px; }
+.padthis7 { padding-top: 7px; }
+.padthis10 { padding-top: 10px; }
 .h10 { height: 10px }
 .h20 { height: 20px }
 .h30 { height: 30px }
@@ -82,6 +85,7 @@ ul.list_bullet li a:hover { color: #fff }
 
 /** Columns **/
 .content_wrapper { overflow: hidden; width: 100% }
+.content_mb_5 { margin-bottom: 0px }
 .content_mb_30 { margin-bottom: 30px }
 .content_mb_60 { margin-bottom: 60px }
 
@@ -140,6 +144,7 @@ ul.list_bullet li a:hover { color: #fff }
 }
 
 #GreyingError9_main { clear: both; margin: 20px 0; padding: 20px 40px }
+#GreyingError9_main_s { clear: both; margin: 0px 0; padding: 0px 40px }
 #GreyingError9_content { width: 580px }
 #GreyingError9_sidebar { width: 260px }
 
@@ -238,8 +243,10 @@ ul.list_bullet li a:hover { color: #fff }
 
 .GreyingError9_nknowsi { width : 100px; height: 75px; background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/8M3Bgm9/9-Knows-Icon.png) no-repeat ; }
 .GreyingError9_bitshooti { width : 100px; height: 75px; background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/jZ4LS4d/Bit-Shoot-Icon.png) no-repeat ; }
-.GreyingError9_bravei { width: 160px; height:160px; background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/0Mrx7Js/Brave-Meta.png) ; 
-}
+.GreyingError9_bravei { width: 160px; height:160px; background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/0Mrx7Js/Brave-Meta.png) ; }
+.GreyingError9_loadi { width: 160px; height: 160px; background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/tMdy84V/Load-Screen9-Neins20029-160x160-Comp.png) -53px; }
+.GreyingError9_discodemojii { width : 100px; height: 75px; background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/WH5HgV1/Discord-Emoji-Preview-1.png) no-repeat ; }
+.GreyingError9_ingamei { width : 100px; height: 75px; background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/J37qNw2/ingamec-1.png) no-repeat ; }
 
 .testimonial {
 	text-align: center;
@@ -414,4 +421,6 @@ ul.rc_comment li span { color: #fff }
 	border: 1px solid #002942
 }
 .GreyingError9_paging ul li a:hover { background: #fff; color: #333 }
+ 
+img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] { display: none;}
 
