@@ -29,7 +29,14 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	color:#fff;
+	color:#ebebeb;
+	font-weight:400;
+	padding: 0;
+	margin: 0 0 10px 0;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+.darkmode h1, h2, h3, h4, h5, h6 {
+	color:#0a6298;
 	font-weight:400;
 	padding: 0;
 	margin: 0 0 10px 0;
@@ -74,6 +81,7 @@ a:hover { text-decoration:underline }
 a:hover,a:active { outline:none }
 
 a.more { display: inline-block; text-decoration: none; margin-top: 15px; color: #00385b; width: 106px; height: 24px; line-height: 24px; text-align: center; background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/D9ps0DX/Greying-Error9-Full-Site-Sprite-M-C.png) no-repeat -197px -6px ; }
+.darkmode a.more { display: inline-block; text-decoration: none; margin-top: 15px; color: #00385b; width: 106px; height: 24px; line-height: 24px; text-align: center; background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/YDb6mYm/Greying-Error9-DARK-Full-Site-Sprite.png) no-repeat -197px -6px ; }
 
 ul.nobullet { margin: 0; padding: 0; list-style: none }
 ul.nobullet li { margin: 0; padding: 0 }
@@ -89,7 +97,8 @@ ul.list_bullet li a:hover { color: #fff }
 .content_mb_30 { margin-bottom: 30px }
 .content_mb_60 { margin-bottom: 60px }
 
-.col_2 {width:420px;}
+.col_2 {width:420px; color: #fff;}
+.darkmode .col_2 {width:420px; color: #fff;}
 .col_3 {width:260px;}
 .col_4 {width:180px;}
 .col_23 {width:580px;}
@@ -118,6 +127,13 @@ ul.list_bullet li a:hover { color: #fff }
 	background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/D9ps0DX/Greying-Error9-Full-Site-Sprite-M-C.png) 0px -371px ;
 	z-index: 3;
 }
+.darkmode #GreyingError9_header {
+	position: relative;
+	width: 100%;
+	height: 75px;
+	background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/YDb6mYm/Greying-Error9-DARK-Full-Site-Sprite.png) 0px -371px ;
+	z-index: 3;
+}
 #GreyingError9_slider {
 	position: relative;
 	clear: both;
@@ -128,6 +144,17 @@ ul.list_bullet li a:hover { color: #fff }
 	background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/0YQLP8h/Greying-Error9-slider.png);
 	z-index: 2;
 }
+/*.darkmode #GreyingError9_slider {
+	position: relative;
+	clear: both;
+	width: 900px;
+	margin-top: -7px;
+	height: 292px;
+	padding: 60px 40px;
+	background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/YDb6mYm/Greying-Error9-DARK-Full-Site-Sprite.png);
+	z-index: 2;
+}
+*/
 #GreyingError9_middle {
 	position: relative;
 	width: 900px;
@@ -137,6 +164,36 @@ ul.list_bullet li a:hover { color: #fff }
 	background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/D9ps0DX/Greying-Error9-Full-Site-Sprite-M-C.png) no-repeat 0px -450px ;
 	z-index: 1;
 	color: #666;
+}
+.darkmode #GreyingError9_middle {
+	position: relative;
+	width: 900px;
+	margin-top: -5px;
+	height: 118px;
+	padding: 30px 80px;
+	background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/YDb6mYm/Greying-Error9-DARK-Full-Site-Sprite.png) no-repeat 0px -450px ;
+	z-index: 1;
+	color: #999999;
+}
+#GreyingError9_middlegamemod {
+	position: relative;
+	width: 900px;
+	margin-top: -5px;
+	height: 118px;
+	padding: 30px 80px;
+	background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/D9ps0DX/Greying-Error9-Full-Site-Sprite-M-C.png) no-repeat 0px -450px ;
+	z-index: 1;
+	color: #666;
+}
+.darkmode #GreyingError9_middlegamemod {
+	position: relative;
+	width: 900px;
+	margin-top: -5px;
+	height: 118px;
+	padding: 30px 80px;
+	background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/YDb6mYm/Greying-Error9-DARK-Full-Site-Sprite.png) no-repeat 0px -450px ;
+	z-index: 1;
+	color: #999999;
 }
 #GreyingError9_top {
 	height: 30px;
@@ -151,15 +208,22 @@ ul.list_bullet li a:hover { color: #fff }
 #GreyingError9_footer_wrapper {
 	clear: both;
 	width: 100%;
-	background: #efefef;
+	background: #f1f1f1;
+}
+
+.darkmode #GreyingError9_footer_wrapper {
+	clear: both;
+	width: 100%;
+	background: #575757;
 }
 #GreyingError9_footer {
 	width: 900px;
 	margin: 0 auto;
-	padding: 50px;
+	padding: 40px;
 }
 
 #GreyingError9_search { float: right; width: 280px; height: 30px; background:url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/D9ps0DX/Greying-Error9-Full-Site-Sprite-M-C.png) -700px -0px;}
+.darkmode #GreyingError9_search { float: right; width: 280px; height: 30px; background:url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/YDb6mYm/Greying-Error9-DARK-Full-Site-Sprite.png) -700px -0px;}
 #GreyingError9_search form {
 	margin: 0;
 	padding: 0;
@@ -201,9 +265,22 @@ ul.list_bullet li a:hover { color: #fff }
 	background:url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/D9ps0DX/Greying-Error9-Full-Site-Sprite-M-C.png) no-repeat -5px -61px ;
 }
 
+.darkmode #site_title a { 
+	display: block; 
+	font-size: 12px; 
+	font-family: Georgia, "Times New Roman", Times, serif; 
+	width: 240px; 
+	height: 30px; 
+	color: #acacac; 
+	text-indent: -10000px; 
+	background:url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/YDb6mYm/Greying-Error9-DARK-Full-Site-Sprite.png) no-repeat -5px -61px ;
+}
+
 #GreyingError9_menu { float: left; width: 660px; }
 #GreyingError9_menu ul { margin: 0; padding: 4px 0; list-style: none }
 #GreyingError9_menu ul li { display: block; float: left; margin: 0; padding: 8px 12px 8px 10px; background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/D9ps0DX/Greying-Error9-Full-Site-Sprite-M-C.png)no-repeat -370px -293px ; }
+.darkmode #GreyingError9_menu ul li { display: block; float: left; margin: 0; padding: 8px 12px 8px 10px; background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/YDb6mYm/Greying-Error9-DARK-Full-Site-Sprite.png)no-repeat -370px -293px ; }
+
 #GreyingError9_menu ul li a { 
 	display: block; 
 	float: left; 
@@ -224,11 +301,22 @@ ul.list_bullet li a:hover { color: #fff }
 #GreyingError9_menu ul li a.contact { background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/D9ps0DX/Greying-Error9-Full-Site-Sprite-M-C.png) no-repeat -752px -48px; }
 #GreyingError9_menu ul li.last { background: none }
 
+.darkmode #GreyingError9_menu ul li a.home { background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/YDb6mYm/Greying-Error9-DARK-Full-Site-Sprite.png) no-repeat -262px -48px; }
+.darkmode #GreyingError9_menu ul li a.services { background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/YDb6mYm/Greying-Error9-DARK-Full-Site-Sprite.png) no-repeat -383px -48px; }
+.darkmode #GreyingError9_menu ul li a.online { background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/YDb6mYm/Greying-Error9-DARK-Full-Site-Sprite.png) no-repeat -507px -48px; }
+.darkmode #GreyingError9_menu ul li a.blog { background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/YDb6mYm/Greying-Error9-DARK-Full-Site-Sprite.png) no-repeat -625px -48px; }
+.darkmode #GreyingError9_menu ul li a.contact { background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/YDb6mYm/Greying-Error9-DARK-Full-Site-Sprite.png) no-repeat -752px -48px; }
+
 #GreyingError9_middle .col_3 { width: 260px; margin-right: 24px; padding-right: 24px; background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/D9ps0DX/Greying-Error9-Full-Site-Sprite-M-C.png) no-repeat -324px -145px }}
+.darkmode #GreyingError9_middle .col_3 { width: 260px; margin-right: 24px; padding-right: 24px; background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/YDb6mYm/Greying-Error9-DARK-Full-Site-Sprite.png) no-repeat -324px -145px }}
+
 #GreyingError9_middle .no_padding_right { padding-right: 0; background: none }
 #GreyingError9_middle h2 { color: #333; font-size: 20px; margin-bottom: 0px }
 #GreyingError9_middle h2 a { color: #333 }
 #GreyingError9_middle p { font-size: 11px }
+
+.darkmode #GreyingError9_middle h2 { color: #999999; font-size: 20px; margin-bottom: 0px }
+.darkmode #GreyingError9_middle h2 a { color: #999999 }
 
 .GreyingError9_joini { background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/D9ps0DX/Greying-Error9-Full-Site-Sprite-M-C.png) no-repeat -276px -694px; }
 .GreyingError9_discordi { background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/D9ps0DX/Greying-Error9-Full-Site-Sprite-M-C.png) no-repeat -7px -694px; }
@@ -287,12 +375,14 @@ background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/GvxY5HY/
 #gallery li span h4 { color: #fff; margin-bottom: 10px; font-size: 14px }
 #gallery li a:hover { text-decoration: none }
 
-.col_2 .text { width: 260px; float: right }
+.col_2 .text { width: 260px; float: right; color: #fff;}
+.darkmode .col_2 .text { width: 260px; float: right; color: #999999;}
 .post_list { margin-bottom: 60px }
 .post_list h2 { font-size: 20px; line-height: 24px; margin-bottom: 10px }
 
-
 .post { clear: both; margin: 0 0 40px 0; padding: 0 0 40px 0; background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/D9ps0DX/Greying-Error9-Full-Site-Sprite-M-C.png) repeat-x bottom -314px -118px; }
+.darkmode .post { clear: both; margin: 0 0 40px 0; padding: 0 0 40px 0; background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/YDb6mYm/Greying-Error9-DARK-Full-Site-Sprite.png) repeat-x bottom -314px -118px; }
+
 .post h2 { margin-bottom: 30px }
 .post p { margin-bottom: 15px }
 .comment_list { margin: 0 0 40px; padding: 0; list-style: none }
@@ -383,7 +473,7 @@ ul.rc_comment li span { color: #fff }
 	border: 1px solid #002942
 }
 
-#GreyingError9_footer { color: #5d676e; font-size: 11px; }
+#GreyingError9_footer { color: #3d4043; font-size: 11px; }
 #GreyingError9_footer a { color: #5d676e; }
 #GreyingError9_footer h4 { color: #333333 }
 #GreyingError9_copyright { 
@@ -395,6 +485,10 @@ ul.rc_comment li span { color: #fff }
 	line-height: 52px; 
 	background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/D9ps0DX/Greying-Error9-Full-Site-Sprite-M-C.png) 0px -628px ;
 }
+
+.darkmode #GreyingError9_footer { color: #999999; font-size: 11px; }
+.darkmode #GreyingError9_footer a { color:#999999 ; }
+.darkmode #GreyingError9_footer h4 { color: #999999 }
 
  .eth_button {
     position: relative;
@@ -423,4 +517,809 @@ ul.rc_comment li span { color: #fff }
 .GreyingError9_paging ul li a:hover { background: #fff; color: #333 }
  
 img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] { display: none;}
+
+
+/*ADD GAME*/
+body {
+  font-family: arial;
+  margin: 0;
+  padding: none;
+  background-color: #000000;
+}
+
+.emscripten { padding-right: 0; margin-left: auto; margin-right: auto; display: block; }
+div.emscripten { text-align: center; }
+div.emscripten_border { border: 1px solid black; }
+/* the canvas *must not* have any border or padding, or mouse coords will be wrong */
+canvas.emscripten { border: 0px none; background-color: black; width: 100%; height: 400px; }
+
+#emscripten_logo {
+  display: inline-block;
+  margin: 0;
+}
+
+.spinner {
+  height: 30px;
+  width: 30px;
+  vertical-align: top;
+  position: absolute;
+
+  -webkit-animation: rotation .8s linear infinite;
+  -moz-animation: rotation .8s linear infinite;
+  -o-animation: rotation .8s linear infinite;
+  animation: rotation 0.8s linear infinite;
+
+  border-left: 5px solid rgb(235, 235, 235);
+  border-right: 5px solid rgb(235, 235, 235);
+  border-bottom: 5px solid rgb(235, 235, 235);
+  border-top: 5px solid rgb(120, 120, 120);
+
+  border-radius: 100%;
+  background-color: rgb(189, 215, 46);
+}
+
+@-webkit-keyframes rotation {
+  from {-webkit-transform: rotate(0deg);}
+  to {-webkit-transform: rotate(360deg);}
+}
+@-moz-keyframes rotation {
+  from {-moz-transform: rotate(0deg);}
+  to {-moz-transform: rotate(360deg);}
+}
+@-o-keyframes rotation {
+  from {-o-transform: rotate(0deg);}
+  to {-o-transform: rotate(360deg);}
+}
+@keyframes rotation {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
+}
+
+#statusbar_container {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin: auto;
+}
+
+#statusbar {
+  width: 50%;
+  margin: auto;
+  min-width: 340px;
+  padding: 10px;
+  height: 40px;
+  background-color: rgb(40, 40, 40);
+}
+
+#status {
+  vertical-align: top;
+  font-weight: bold;
+  color: rgb(120, 120, 120);
+  width: 100%;
+  padding-bottom: 2px;
+  text-align: left;
+}
+
+#progress {
+  height: 20px;
+  width: 100%;
+}
+
+#ContextContainer {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  color: white;
+}
+#ContextButton {
+  text-decoration: none;
+  color: grey;
+  font-size: xx-large;
+  cursor: pointer;
+  user-select: none;
+  -moz-user-select: none;
+}
+#ContextButton:focus {
+  outline: none;
+}
+#ContextMenu a {
+  text-decoration: none;
+  color: lightgrey;
+}
+#ContextMenu a:hover {
+  text-decoration: nsone;
+  color: grey;
+}
+#ContextMenu {
+  background-color: rgb(40,40,40);
+  padding: 5px;
+}
+
+/*DarkMode*/
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --clr-light: #0a6298;
+  --clr-dark: #3d4043;
+  --clr-primary: #dbffa2;
+  --clr-secondary: #c3fcf2;
+  --clr-accent: #ff7750;
+  --clr-content-wrapper: #0F151C;
+
+  --foreground: var(--clr-dark);
+  --background: var(--clr-light);
+
+  --ff-title: "Playfair Display", serif;
+  --ff-body: "Assistant", sans-serif;
+
+}
+
+.darkmode {
+  --clr-light: #0a6298;
+  --clr-dark: #3d4043;
+  --clr-primary: #202302;
+  --clr-secondary: #00100d;
+  --clr-accent: #ff7750;
+  --clr-content-wrapper: #0F151C;
+
+  --foreground: var(--clr-light);
+  --background: var(--clr-dark);
+
+}
+
+body {
+  content-wrapper: #FAFAFA;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--ff-body);
+  font-size: 18px;
+  line-height: 1.6;
+
+}
+
+.menu-secondary-container::after {
+    position: relative;
+    height: 38px;
+    z-index: 300;
+    background: url(https://i.ibb.co/tC67kMH/Neins-Blog-CSS.png) no-repeat 0px 0px ;
+    border: 0px solid #121212
+}
+
+.subtitle {
+  max-width: 600px;
+}
+
+.btn-group {
+  margin: 2em 0;
+  display: relative;
+}
+
+.btn-secondary {
+  background: var(--foreground);
+  color: var(--background);
+  // border: currentColor solid 2px;
+}
+
+.btn-accent {
+  background: var(--clr-accent);
+  color: var(--foreground);
+}
+
+.btn::after {
+  content: &quot;&quot;;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: var(--foreground) 2px solid;
+  left: -4px;
+  top: 4px;
+  border-radius: inherit;
+  z-index: -1;
+}
+
+.dark-mode-toggle {
+  position: absolute;
+  z-index: 100;
+  top: 1em;
+  right: 1em;
+  color: var(--foreground);
+  border: 2px solid currentColor;
+  padding: 4px;
+  background: transparent;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+}
+
+.click-here {
+  // SVG icon from Font Awesome
+  width: 100px;
+  right: 1.5em;
+  position: absolute;
+  top: 3em;
+}
+
+.main-content-area{
+    background-image: none;
+    background: #595959;
+}
+
+.main-content-area-container{
+    background-image: none;
+    background: #595959;
+}
+
+.darkmode ::webkit-scrollbar {
+    background-color: #1c1e1f;
+    color: #c5c1b9;
+}
+
+.darkmode ::webkit-scrollbar-thumb {
+    background-color: #3d4143;
+}
+
+.darkmode .sidebarpbt a {
+    text-decoration: none;
+    color: #66ccff
+}
+
+.darkmode .sidebarpbt h2,
+h3.widgettitle {
+    background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/tC67kMH/Neins-Blog-CSS.png) no-repeat -35px -43px ;
+    margin: 0 0 10px 0;
+    padding: 10px;
+    background-color: initial;
+    border-left-color: #4e585d;
+    border-right-color: #4e585d;
+    border-bottom-color: #4e585d;
+    color: #99ccff;
+    text-decoration-color: initial;
+    font-size: 16px;
+    line-height: 16px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    text-decoration: none;
+    text-transform: uppercase
+}
+
+.darkmode button.btn {
+    -webkit-appearance: button;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: #575757;
+    color: #e8e6e3;
+    background-color: #181a1b;
+    outline-color: initial;
+    box-sizing: border-box;
+    border-image: initial;
+}
+
+.darkmode .menu-primary-container {
+    float: left;
+    padding: 0;
+    position: relative;
+    height: 66px;
+    background: url() ;
+    z-index: 400
+}
+
+.darkmode .wrap-menu-primary .sf-shadow ul {
+    background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://4.bp.blogspot.com/-qBT-7Mi-J5Y/UHipzeBfaoI/AAAAAAAAHiM/j9pqa4aF9xs/s1600/menu-primary-shadow.png) no-repeat bottom right
+}
+
+.darkmode .menu-secondary-container {
+    position: relative;
+    height: 38px;
+    z-index: 300;
+    background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/tC67kMH/Neins-Blog-CSS.png) no-repeat 0px -42px ;
+    border: 0px solid #121212
+}
+
+.darkmode .menu-secondary ul {
+    min-width: 160px
+}
+
+.darkmode .menu-secondary li a {
+    color: #66ccff;
+    padding: 13px 15px 13px 15px;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: normal
+}
+
+.darkmode .menu-secondary li a:hover,
+.darkmode .menu-secondary li a:active,
+.darkmode .menu-secondary li a:focus,
+.darkmode .menu-secondary li:hover>a,
+.darkmode .menu-secondary li.current-cat>a,
+.darkmode .menu-secondary li.current_page_item>a,
+.darkmode .menu-secondary li.current-menu-item>a {
+    color: #fff;
+    background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/tC67kMH/Neins-Blog-CSS.png) no-repeat -114px -91px ;
+    outline: 0
+}
+
+.darkmode .tabs-widget li a {
+    color: #fff;
+    background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://3.bp.blogspot.com/-89oZWT7VN1Q/UHip5ezTIPI/AAAAAAAAHi8/mT6t5-yWEbM/s1600/tabs-bg.png) left top repeat-x;
+    border: 1px solid #000;
+    background-color: initial;
+    border-top-color: rgb(102, 102, 102);
+    border-right-color: rgb(102, 102, 102);
+    border-bottom-color: rgb(102, 102, 102);
+    border-left-color: rgb(102, 102, 102);
+    padding: 6px 16px;
+    font-family: Arial, Helvetica, Sans-serif;
+    font-weight: bold;
+    display: block;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 12px
+}
+
+/*Mobile Another Project for Another Day*/
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+}
+
+/* ----------- iPad 1, 2, Mini and Air ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* ----------- iPad 3, 4 and Pro 9.7" ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* ----------- iPad Pro 10.5" ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 834px) 
+  and (max-device-width: 1112px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen 
+  and (min-device-width: 834px) 
+  and (max-device-width: 834px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Landscape */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen 
+  and (min-device-width: 1112px) 
+  and (max-device-width: 1112px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* ----------- iPad Pro 12.9" ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Landscape */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen 
+  and (min-device-width: 1366px) 
+  and (max-device-width: 1366px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* ----------- Galaxy S3 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) 
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) 
+  and (orientation: landscape) {
+
+}
+
+/* ----------- Galaxy S4, S5 and Note 3 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: landscape) {
+
+}
+
+/* ----------- Galaxy S6 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) {
+
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) 
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) 
+  and (orientation: landscape) {
+
+}
+
+/* ----------- Galaxy Tab 2 ----------- */
+
+/* Portrait and Landscape */
+@media 
+  (min-device-width: 800px) 
+  and (max-device-width: 1280px) {
+
+}
+
+/* Portrait */
+@media 
+  (max-device-width: 800px) 
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media 
+  (max-device-width: 1280px) 
+  and (orientation: landscape) { 
+
+}
+
+/* ----------- Galaxy Tab S ----------- */
+
+/* Portrait and Landscape */
+@media 
+  (min-device-width: 800px) 
+  and (max-device-width: 1280px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media 
+  (max-device-width: 800px) 
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+}
+
+/* Landscape */
+@media 
+  (max-device-width: 1280px) 
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+}
+
+/* ----------- HTC One ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: landscape) {
+
+}
+
+*/WindowsPhones*/
+/* ----------- Windows Phone ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 480px) 
+  and (device-height: 800px) {
+
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 480px) 
+  and (device-height: 800px)  
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 480px) 
+  and (device-height: 800px) 
+  and (orientation: landscape) {
+
+}
 
