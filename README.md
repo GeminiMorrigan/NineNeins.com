@@ -1,19 +1,33 @@
 # NineNeins.com
 
 
-NineNeins.Com
+NineNeins.Com </br>
+<a href="https://github.com/9NeinsG/NineNeins.com/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/9NeinsG/NineNeins.com"></a><a href="https://github.com/9NeinsG/NineNeins.com/issues"><img alt="GitHub version" src="https://img.shields.io/badge/Version-0.7-yellowgreen"></a>
 
-:Description-(Deprecated) 
-NineNeins.Com is the Central Hub which will serve as the connecting point throughout the NineNeins World. While 9Neins.Ga(Blog) will serve around the Movement, Central Hub for all Articles, News, Archives, Updates, and Community, as Play9NeinsOnline(Online Play) will center around ONLY NineNeins(Game, Content, and the like) - NineNeins.com will focus on the business side of NineNeins. 
 
-:Changes-CURRENT
-The Original Design was planned and become Deprecated due to this project got far to large, far to fast. 
-The Main Changes is mostly Links.
+:Changes-(Update)
+The Original Design was planned and was so successful it has become Deprecated due to this project got far to large (Over Exceeded by a Large Margin), far to fast. 
+The Main Changes is mostly Links, Domains, Host, and another with a Blog Software Change.
 
-9Neins.Ga will still serve as a SubDomain. However, changing Platforms on the new system for the Blog itself, will determine whether the Blog will stay as 9Neins.Ga, or change to NineNeins.Com/Blog. There are Pros and Cons with each.
+9Neins.Ga will still serve as a SubDomain. However, changing Platforms on the new system for the Blog itself, will determine whether the Blog will stay as 9Neins.Ga, or change to NineNeins.Com/Blog . There are Pros and Cons with each. 
 
-However, Play9NeinsOnline is completley Deprecated. Is is now NineNeins.Com/NN-Online. The orginal description is still in play to a large degree excluding these changes.  
+However, Play9NeinsOnline is completley Deprecated. Is is now NineNeins.Com/NN-Online. DarkMode(Beta) has been Launched, MetaBrave/Active NN-Online/and A complete Blog Switch will be included in the 0.8 Release. By 0.9 release after everything Is in motion, a Mobile Section will be added. Upon Release will become NineNeins.com 1.0. 
 
+-Road Map -
+
+[] Fix Current Sound/Vid Issues during Online Play
+[x] Map Out Css for DarkMode
+[x] Employ DarkMode
+[x] Make DarkMode Persistent across 9Neins
+[x] Add ToggleSwitch for Darkmode
+[] Cycle MetaBrave into the site.
+[x] Avoid all 3rd Party Corporations(Google, Facebook, Twitter, etc) 
+[x] No Trackers/Cookies
+[x] Make site Responsive
+[] Mobile Version
+[] Convert Blog to new Platform
+
+ 
 
 :Team Members-
 See Discord.
@@ -24,6 +38,8 @@ NineNeins.com is the overall picture merging together all aspects of the Nine-Ne
 Thats what NineNeins.Com is, and how Nine-Neins.Com should be viewed and used.
 
 9Neins.Ga is the place for Cartoon Frogs, Radical rhetoric, Articles, Memes, Music, Videos, Archive, Politically Charged, Propaganda Hangout. Every function has its place. :)
+
+It may come to where this will change just a little bit in format. But the concept still applys.
 
 
 :Join-
