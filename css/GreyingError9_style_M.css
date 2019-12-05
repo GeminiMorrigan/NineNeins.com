@@ -23,7 +23,7 @@ body {
 	font-size: 12px;
 	line-height: 18px; 
 	background-color: #0a6298; 
-	background-image: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/qC64McD/Greying-Error9-body.png);
+	background-image: url(https://i.ibb.co/qC64McD/Greying-Error9-body.png);
 	background-repeat: no-repeat;
 	background-position: center top;
 }
@@ -71,7 +71,7 @@ img { margin: 0; padding: 0; border: 0; }
 
 p { margin: 0 0 10px 0; padding: 0 }
 em { color: #fff }
-hr { clear: both; margin-bottom: 40px; padding-top: 28px; border: none; background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/vB3ZnXB/Greying-Error9-hr-divider.png) center bottom no-repeat }
+hr { clear: both; margin-bottom: 40px; padding-top: 28px; border: none; background: url(https://i.ibb.co/vB3ZnXB/Greying-Error9-hr-divider.png) center bottom no-repeat }
 
 label { display: block; }
 input { margin-bottom: 10px }
@@ -80,14 +80,14 @@ a:link, a:visited { color:#fff; text-decoration: none}
 a:hover { text-decoration:underline }
 a:hover,a:active { outline:none }
 
-a.more { display: inline-block; text-decoration: none; margin-top: 15px; color: #00385b; width: 106px; height: 24px; line-height: 24px; text-align: center; background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/D9ps0DX/Greying-Error9-Full-Site-Sprite-M-C.png) no-repeat -197px -6px ; }
-.darkmode a.more { display: inline-block; text-decoration: none; margin-top: 15px; color: #00385b; width: 106px; height: 24px; line-height: 24px; text-align: center; background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/YDb6mYm/Greying-Error9-DARK-Full-Site-Sprite.png) no-repeat -197px -6px ; }
+a.more { display: inline-block; text-decoration: none; margin-top: 15px; color: #00385b; width: 106px; height: 24px; line-height: 24px; text-align: center; background: url(https://i.ibb.co/D9ps0DX/Greying-Error9-Full-Site-Sprite-M-C.png) no-repeat -197px -6px ; }
+.darkmode a.more { display: inline-block; text-decoration: none; margin-top: 15px; color: #00385b; width: 106px; height: 24px; line-height: 24px; text-align: center; background: url(https://i.ibb.co/YDb6mYm/Greying-Error9-DARK-Full-Site-Sprite.png) no-repeat -197px -6px ; }
 
 ul.nobullet { margin: 0; padding: 0; list-style: none }
 ul.nobullet li { margin: 0; padding: 0 }
 
 ul.list_bullet { margin: 10px 0 10px 15px; padding: 0; list-style: none }
-ul.list_bullet li { color:#fff; margin: 0 0 7px 0; padding: 0 0 0 20px; background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/hLcMNvn/Greying-Error9-bullet.png) no-repeat scroll 0 5px  }
+ul.list_bullet li { color:#fff; margin: 0 0 7px 0; padding: 0 0 0 20px; background: url(https://i.ibb.co/hLcMNvn/Greying-Error9-bullet.png) no-repeat scroll 0 5px  }
 ul.list_bullet li a { color: #fff; font-weight: normal; text-decoration: none }
 ul.list_bullet li a:hover { color: #fff }
 
@@ -133,16 +133,33 @@ ul.list_bullet li a:hover { color: #fff }
 	position: relative;
 	width: 100%;
 	height: 75px;
-	background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/D9ps0DX/Greying-Error9-Full-Site-Sprite-M-C.png) 0px -371px ;
+	background: url(https://i.ibb.co/D9ps0DX/Greying-Error9-Full-Site-Sprite-M-C.png) 0px -371px ;
 	z-index: 3;
 }
 .darkmode #GreyingError9_header {
 	position: relative;
 	width: 100%;
 	height: 75px;
-	background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/YDb6mYm/Greying-Error9-DARK-Full-Site-Sprite.png) 0px -371px ;
+	background: url(https://i.ibb.co/YDb6mYm/Greying-Error9-DARK-Full-Site-Sprite.png) 0px -371px ;
 	z-index: 3;
 }
+
+#GreyingError9_header_b {
+	position: relative;
+	width: 100%;
+	height: 75px;
+	background: url(https://i.ibb.co/zGLDNBp/Greying-Error9-Full-Blog-Sprite.png) 0px -371px ;
+	z-index: 3;
+}
+
+.darkmode #GreyingError9_header_b {
+	position: relative;
+	width: 100%;
+	height: 75px;
+	background: url(https://i.ibb.co/YDCHFFc/Greying-Error9-DARK-Full-Blog-Sprite.png) 0px -371px ;
+	z-index: 3;
+}
+
 #GreyingError9_slider {
 	position: relative;
 	clear: both;
@@ -150,7 +167,18 @@ ul.list_bullet li a:hover { color: #fff }
 	margin-top: -7px;
 	height: 292px;
 	padding: 60px 40px;
-	background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/0YQLP8h/Greying-Error9-slider.png);
+	background: url(https://i.ibb.co/0YQLP8h/Greying-Error9-slider.png);
+	z-index: 2;
+}
+
+#GreyingError9_sliderb {
+	position: relative;
+	clear: both;
+	width: 900px;
+	margin-top: -7px;
+	height: 292px;
+	padding: 60px 40px;
+	background: url(https://i.ibb.co/ng96J8p/Greying-Error9-sliderb.png);
 	z-index: 2;
 }
 /*.darkmode #GreyingError9_slider {
@@ -160,7 +188,7 @@ ul.list_bullet li a:hover { color: #fff }
 	margin-top: -7px;
 	height: 292px;
 	padding: 60px 40px;
-	background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/YDb6mYm/Greying-Error9-DARK-Full-Site-Sprite.png);
+	background: url(https://i.ibb.co/YDb6mYm/Greying-Error9-DARK-Full-Site-Sprite.png);
 	z-index: 2;
 }
 */
@@ -170,7 +198,7 @@ ul.list_bullet li a:hover { color: #fff }
 	margin-top: -5px;
 	height: 118px;
 	padding: 30px 40px;
-	background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/D9ps0DX/Greying-Error9-Full-Site-Sprite-M-C.png) no-repeat 0px -450px ;
+	background: url(https://i.ibb.co/D9ps0DX/Greying-Error9-Full-Site-Sprite-M-C.png) no-repeat 0px -450px ;
 	z-index: 1;
 	color: #666;
 }
@@ -180,7 +208,7 @@ ul.list_bullet li a:hover { color: #fff }
 	margin-top: -5px;
 	height: 118px;
 	padding: 30px 40px;
-	background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/YDb6mYm/Greying-Error9-DARK-Full-Site-Sprite.png) no-repeat 0px -450px ;
+	background: url(https://i.ibb.co/YDb6mYm/Greying-Error9-DARK-Full-Site-Sprite.png) no-repeat 0px -450px ;
 	z-index: 1;
 	color: #999999;
 }
@@ -190,7 +218,7 @@ ul.list_bullet li a:hover { color: #fff }
 	margin-top: -5px;
 	height: 118px;
 	padding: 30px 40px;
-	background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/D9ps0DX/Greying-Error9-Full-Site-Sprite-M-C.png) no-repeat 0px -450px ;
+	background: url(https://i.ibb.co/D9ps0DX/Greying-Error9-Full-Site-Sprite-M-C.png) no-repeat 0px -450px ;
 	z-index: 1;
 	color: #666;
 }
@@ -200,7 +228,7 @@ ul.list_bullet li a:hover { color: #fff }
 	margin-top: -5px;
 	height: 118px;
 	padding: 30px 40px;
-	background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/YDb6mYm/Greying-Error9-DARK-Full-Site-Sprite.png) no-repeat 0px -450px ;
+	background: url(https://i.ibb.co/YDb6mYm/Greying-Error9-DARK-Full-Site-Sprite.png) no-repeat 0px -450px ;
 	z-index: 1;
 	color: #999999;
 }
@@ -231,8 +259,8 @@ ul.list_bullet li a:hover { color: #fff }
 	padding: 40px;
 }
 
-#GreyingError9_search { float: right; width: 280px; height: 30px; background:url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/D9ps0DX/Greying-Error9-Full-Site-Sprite-M-C.png) -700px -0px;}
-.darkmode #GreyingError9_search { float: right; width: 280px; height: 30px; background:url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/YDb6mYm/Greying-Error9-DARK-Full-Site-Sprite.png) -700px -0px;}
+#GreyingError9_search { float: right; width: 280px; height: 30px; background:url(https://i.ibb.co/D9ps0DX/Greying-Error9-Full-Site-Sprite-M-C.png) -700px -0px;}
+.darkmode #GreyingError9_search { float: right; width: 280px; height: 30px; background:url(https://i.ibb.co/YDb6mYm/Greying-Error9-DARK-Full-Site-Sprite.png) -700px -0px;}
 #GreyingError9_search form {
 	margin: 0;
 	padding: 0;
@@ -263,6 +291,7 @@ ul.list_bullet li a:hover { color: #fff }
 }
 
 #site_title { float: left; margin: 25px 20px 0 0 }
+#site_title_b { float: left; margin: 25px -120px 0 0 }
 #site_title a { 
 	display: block; 
 	font-size: 12px; 
@@ -271,7 +300,18 @@ ul.list_bullet li a:hover { color: #fff }
 	height: 30px; 
 	color: #acacac; 
 	text-indent: -10000px; 
-	background:url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/D9ps0DX/Greying-Error9-Full-Site-Sprite-M-C.png) no-repeat -5px -61px ;
+	background:url(https://i.ibb.co/D9ps0DX/Greying-Error9-Full-Site-Sprite-M-C.png) no-repeat -5px -61px ;
+}
+
+#site_title_b a { 
+	display: block; 
+	font-size: 12px; 
+	font-family: Georgia, "Times New Roman", Times, serif; 
+	width: 240px; 
+	height: 30px; 
+	color: #acacac; 
+	text-indent: -10000px; 
+	background:url() no-repeat -5px -61px ;
 }
 
 .darkmode #site_title a { 
@@ -282,13 +322,24 @@ ul.list_bullet li a:hover { color: #fff }
 	height: 30px; 
 	color: #acacac; 
 	text-indent: -10000px; 
-	background:url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/YDb6mYm/Greying-Error9-DARK-Full-Site-Sprite.png) no-repeat -5px -61px ;
+	background:url(https://i.ibb.co/YDb6mYm/Greying-Error9-DARK-Full-Site-Sprite.png) no-repeat -5px -61px ;
+}
+
+.darkmode #site_title_b a { 
+	display: block; 
+	font-size: 12px; 
+	font-family: Georgia, "Times New Roman", Times, serif; 
+	width: 240px; 
+	height: 30px; 
+	color: #acacac; 
+	text-indent: -10000px; 
+	background:url() no-repeat -5px -61px ;
 }
 
 #GreyingError9_menu { float: left; width: 660px; }
 #GreyingError9_menu ul { margin: 0; padding: 4px 0; list-style: none }
-#GreyingError9_menu ul li { display: block; float: left; margin: 0; padding: 8px 12px 8px 10px; background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/D9ps0DX/Greying-Error9-Full-Site-Sprite-M-C.png)no-repeat -370px -293px ; }
-.darkmode #GreyingError9_menu ul li { display: block; float: left; margin: 0; padding: 8px 12px 8px 10px; background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/YDb6mYm/Greying-Error9-DARK-Full-Site-Sprite.png)no-repeat -370px -293px ; }
+#GreyingError9_menu ul li { display: block; float: left; margin: 0; padding: 8px 12px 8px 10px; background: url(https://i.ibb.co/D9ps0DX/Greying-Error9-Full-Site-Sprite-M-C.png)no-repeat -370px -293px ; }
+.darkmode #GreyingError9_menu ul li { display: block; float: left; margin: 0; padding: 8px 12px 8px 10px; background: url(https://i.ibb.co/YDb6mYm/Greying-Error9-DARK-Full-Site-Sprite.png)no-repeat -370px -293px ; }
 
 #GreyingError9_menu ul li a { 
 	display: block; 
@@ -303,21 +354,47 @@ ul.list_bullet li a:hover { color: #fff }
 } 
 
 #GreyingError9_menu ul li a:hover, #GreyingError9_menu ul li a.selected { color: #333 }
-#GreyingError9_menu ul li a.home { background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/D9ps0DX/Greying-Error9-Full-Site-Sprite-M-C.png) no-repeat -262px -48px; }
-#GreyingError9_menu ul li a.services { background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/D9ps0DX/Greying-Error9-Full-Site-Sprite-M-C.png) no-repeat -383px -48px; }
-#GreyingError9_menu ul li a.online { background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/D9ps0DX/Greying-Error9-Full-Site-Sprite-M-C.png) no-repeat -507px -48px; }
-#GreyingError9_menu ul li a.blog { background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/D9ps0DX/Greying-Error9-Full-Site-Sprite-M-C.png) no-repeat -625px -48px; }
-#GreyingError9_menu ul li a.contact { background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/D9ps0DX/Greying-Error9-Full-Site-Sprite-M-C.png) no-repeat -752px -48px; }
+#GreyingError9_menu ul li a.home { background: url(https://i.ibb.co/D9ps0DX/Greying-Error9-Full-Site-Sprite-M-C.png) no-repeat -262px -48px; }
+#GreyingError9_menu ul li a.services { background: url(https://i.ibb.co/D9ps0DX/Greying-Error9-Full-Site-Sprite-M-C.png) no-repeat -383px -48px; }
+#GreyingError9_menu ul li a.online { background: url(https://i.ibb.co/D9ps0DX/Greying-Error9-Full-Site-Sprite-M-C.png) no-repeat -507px -48px; }
+#GreyingError9_menu ul li a.blog { background: url(https://i.ibb.co/D9ps0DX/Greying-Error9-Full-Site-Sprite-M-C.png) no-repeat -625px -48px; }
+#GreyingError9_menu ul li a.contact { background: url(https://i.ibb.co/D9ps0DX/Greying-Error9-Full-Site-Sprite-M-C.png) no-repeat -752px -48px; }
 #GreyingError9_menu ul li.last { background: none }
 
-.darkmode #GreyingError9_menu ul li a.home { background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/YDb6mYm/Greying-Error9-DARK-Full-Site-Sprite.png) no-repeat -262px -48px; }
-.darkmode #GreyingError9_menu ul li a.services { background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/YDb6mYm/Greying-Error9-DARK-Full-Site-Sprite.png) no-repeat -383px -48px; }
-.darkmode #GreyingError9_menu ul li a.online { background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/YDb6mYm/Greying-Error9-DARK-Full-Site-Sprite.png) no-repeat -507px -48px; }
-.darkmode #GreyingError9_menu ul li a.blog { background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/YDb6mYm/Greying-Error9-DARK-Full-Site-Sprite.png) no-repeat -625px -48px; }
-.darkmode #GreyingError9_menu ul li a.contact { background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/YDb6mYm/Greying-Error9-DARK-Full-Site-Sprite.png) no-repeat -752px -48px; }
+.darkmode #GreyingError9_menu ul li a.home { background: url(https://i.ibb.co/YDb6mYm/Greying-Error9-DARK-Full-Site-Sprite.png) no-repeat -262px -48px; }
+.darkmode #GreyingError9_menu ul li a.services { background: url(https://i.ibb.co/YDb6mYm/Greying-Error9-DARK-Full-Site-Sprite.png) no-repeat -383px -48px; }
+.darkmode #GreyingError9_menu ul li a.online { background: url(https://i.ibb.co/YDb6mYm/Greying-Error9-DARK-Full-Site-Sprite.png) no-repeat -507px -48px; }
+.darkmode #GreyingError9_menu ul li a.blog { background: url(https://i.ibb.co/YDb6mYm/Greying-Error9-DARK-Full-Site-Sprite.png) no-repeat -625px -48px; }
+.darkmode #GreyingError9_menu ul li a.contact { background: url(https://i.ibb.co/YDb6mYm/Greying-Error9-DARK-Full-Site-Sprite.png) no-repeat -752px -48px; }
 
-#GreyingError9_middle .col_3 { width: 260px; margin-right: 24px; padding-right: 24px; background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/D9ps0DX/Greying-Error9-Full-Site-Sprite-M-C.png) no-repeat -324px -145px }}
-.darkmode #GreyingError9_middle .col_3 { width: 260px; margin-right: 24px; padding-right: 24px; background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/YDb6mYm/Greying-Error9-DARK-Full-Site-Sprite.png) no-repeat -324px -145px }}
+
+#GreyingError9_menub { float: left; width: 660px; }
+#GreyingError9_menub ul { margin: 0; padding: 1px 0; list-style: none }
+#GreyingError9_menub ul li { display: block; float: left; margin: 0; padding: 8px 12px 8px 10px; background: url(https://i.ibb.co/zGLDNBp/Greying-Error9-Full-Blog-Sprite.png)no-repeat -370px -293px ; }
+.darkmode #GreyingError9_menub ul li { display: block; float: left; margin: 0; padding: 8px 12px 8px 10px; background: url(https://i.ibb.co/YDCHFFc/Greying-Error9-DARK-Full-Blog-Sprite.png)no-repeat -370px -293px ; }
+
+#GreyingError9_menub ul li a { 
+	display: block; 
+	float: left; 
+	width: 100px; 
+	height: 16px; 
+	padding-top: 35px; 
+	text-align: center; 
+	color: #999; 
+	background-position: center top; 
+	background-repeat: no-repeat 
+} 
+
+#GreyingError9_menub ul li a:hover, #GreyingError9_menub ul li a.selected { color: #333 }
+#GreyingError9_menub ul li a.archivem { background: url(https://i.ibb.co/zGLDNBp/Greying-Error9-Full-Blog-Sprite.png) no-repeat -140px -48px; }
+#GreyingError9_menub ul li a.videom { background: url(https://i.ibb.co/zGLDNBp/Greying-Error9-Full-Blog-Sprite.png) no-repeat -263px -48px; }
+#GreyingError9_menub ul li a.gamem { background: url(https://i.ibb.co/zGLDNBp/Greying-Error9-Full-Blog-Sprite.png) no-repeat -374px -48px; }
+#GreyingError9_menub ul li a.musicm { background: url(https://i.ibb.co/zGLDNBp/Greying-Error9-Full-Blog-Sprite.png) no-repeat -501px -48px; }
+#GreyingError9_menub ul li a.booksm { background: url(https://i.ibb.co/zGLDNBp/Greying-Error9-Full-Blog-Sprite.png) no-repeat -610px -48px; }
+#GreyingError9_menub ul li.last { background: none }
+
+#GreyingError9_middle .col_3 { width: 260px; margin-right: 24px; padding-right: 24px; background: url(https://i.ibb.co/D9ps0DX/Greying-Error9-Full-Site-Sprite-M-C.png) no-repeat -324px -145px }}
+.darkmode #GreyingError9_middle .col_3 { width: 260px; margin-right: 24px; padding-right: 24px; background: url(https://i.ibb.co/YDb6mYm/Greying-Error9-DARK-Full-Site-Sprite.png) no-repeat -324px -145px }}
 
 #GreyingError9_middle .no_padding_right { padding-right: 0; background: none }
 #GreyingError9_middle h2 { color: #333; font-size: 20px; margin-bottom: 0px }
@@ -327,27 +404,31 @@ ul.list_bullet li a:hover { color: #fff }
 .darkmode #GreyingError9_middle h2 { color: #999999; font-size: 20px; margin-bottom: 0px }
 .darkmode #GreyingError9_middle h2 a { color: #999999 }
 
-.GreyingError9_joini { background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/D9ps0DX/Greying-Error9-Full-Site-Sprite-M-C.png) no-repeat -276px -694px; }
-.GreyingError9_discordi { background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/D9ps0DX/Greying-Error9-Full-Site-Sprite-M-C.png) no-repeat -7px -694px; }
-.GreyingError9_nineneinsi { background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/D9ps0DX/Greying-Error9-Full-Site-Sprite-M-C.png) no-repeat -190px -694px; }
-.GreyingError9_archivi { background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/D9ps0DX/Greying-Error9-Full-Site-Sprite-M-C.png) no-repeat -98px -692px; }
-.GreyingError9_ratedi { background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/Jcrwvt8/GtIcon.png) }
+.GreyingError9_joini { background: url(https://i.ibb.co/D9ps0DX/Greying-Error9-Full-Site-Sprite-M-C.png) no-repeat -276px -694px; }
+.GreyingError9_discordi { background: url(https://i.ibb.co/D9ps0DX/Greying-Error9-Full-Site-Sprite-M-C.png) no-repeat -7px -694px; }
+.GreyingError9_nineneinsi { background: url(https://i.ibb.co/D9ps0DX/Greying-Error9-Full-Site-Sprite-M-C.png) no-repeat -190px -694px; }
+.GreyingError9_archivi { background: url(https://i.ibb.co/D9ps0DX/Greying-Error9-Full-Site-Sprite-M-C.png) no-repeat -98px -692px; }
+.GreyingError9_ratedi { background: url(https://i.ibb.co/Jcrwvt8/GtIcon.png) }
 
 .bots { margin-bottom: 15px; padding-bottom: 15px; border-bottom: 1px solid #054b77 }
 .bots .date { color: #fff }
 .bots a { display: block; margin-bottom: 10px; font-weight: 700 }
 .bots p { font-size: 11px }
 
-.GreyingError9_nknowsi { width : 100px; height: 75px; background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/8M3Bgm9/9-Knows-Icon.png) no-repeat ; }
-.GreyingError9_bitshooti { width : 100px; height: 75px; background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/jZ4LS4d/Bit-Shoot-Icon.png) no-repeat ; }
-.GreyingError9_bravei { width: 160px; height:160px; background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/0Mrx7Js/Brave-Meta.png) ; }
-.GreyingError9_loadi { width: 160px; height: 160px; background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/tMdy84V/Load-Screen9-Neins20029-160x160-Comp.png) -53px; }
-.GreyingError9_discodemojii { width : 100px; height: 75px; background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/WH5HgV1/Discord-Emoji-Preview-1.png) no-repeat ; }
-.GreyingError9_ingamei { width : 100px; height: 75px; background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/J37qNw2/ingamec-1.png) no-repeat ; }
+.GreyingError9_nknowsi { width : 100px; height: 75px; background: url(https://i.ibb.co/8M3Bgm9/9-Knows-Icon.png) no-repeat ; }
+.GreyingError9_bitshooti { width : 100px; height: 75px; background: url(https://i.ibb.co/jZ4LS4d/Bit-Shoot-Icon.png) no-repeat ; }
+.GreyingError9_bravei { width: 160px; height:160px; background: url(https://i.ibb.co/0Mrx7Js/Brave-Meta.png) ; }
+.GreyingError9_loadi { width: 160px; height: 160px; background: url(https://i.ibb.co/tMdy84V/Load-Screen9-Neins20029-160x160-Comp.png) -53px; }
+.GreyingError9_discodemojii { width : 100px; height: 75px; background: url(https://i.ibb.co/WH5HgV1/Discord-Emoji-Preview-1.png) no-repeat ; }
+.GreyingError9_ingamei { width : 100px; height: 75px; background: url(https://i.ibb.co/J37qNw2/ingamec-1.png) no-repeat ; }
 
+.GreyingError9_githubi { background: url(https://i.ibb.co/zGLDNBp/Greying-Error9-Full-Blog-Sprite.png) no-repeat -98px -694px; }
 .testimonial {
 	text-align: center;
 }
+
+.GreyingError9_linki { width : 100px; height: 75px; background: url(https://i.ibb.co/BVVy8JK/JNLink.png) no-repeat ; }
+.GreyingError9_rocki { width : 100px; height: 75px; background: url(https://i.ibb.co/K0c99NT/Rockwell.png) no-repeat ; }
 .testimonial blockquote {
 	border: none;
 	margin: 0;
@@ -378,7 +459,7 @@ background: #fff;
 color: #ccc;
 width: 266px; 
 line-height: 1.2em;
-background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/GvxY5HY/caption-background.png
+background: url(https://i.ibb.co/GvxY5HY/caption-background.png
 ) repeat;
 }
 #gallery li span h4 { color: #fff; margin-bottom: 10px; font-size: 14px }
@@ -389,8 +470,8 @@ background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/GvxY5HY/
 .post_list { margin-bottom: 60px }
 .post_list h2 { font-size: 20px; line-height: 24px; margin-bottom: 10px }
 
-.post { clear: both; margin: 0 0 40px 0; padding: 0 0 40px 0; background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/D9ps0DX/Greying-Error9-Full-Site-Sprite-M-C.png) repeat-x bottom -314px -118px; }
-.darkmode .post { clear: both; margin: 0 0 40px 0; padding: 0 0 40px 0; background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/YDb6mYm/Greying-Error9-DARK-Full-Site-Sprite.png) repeat-x bottom -314px -118px; }
+.post { clear: both; margin: 0 0 40px 0; padding: 0 0 40px 0; background: url(https://i.ibb.co/D9ps0DX/Greying-Error9-Full-Site-Sprite-M-C.png) repeat-x bottom -314px -118px; }
+.darkmode .post { clear: both; margin: 0 0 40px 0; padding: 0 0 40px 0; background: url(https://i.ibb.co/YDb6mYm/Greying-Error9-DARK-Full-Site-Sprite.png) repeat-x bottom -314px -118px; }
 
 .post h2 { margin-bottom: 30px }
 .post p { margin-bottom: 15px }
@@ -492,7 +573,7 @@ ul.rc_comment li span { color: #fff }
 	width: 900px; 
 	height: 52px; 
 	line-height: 52px; 
-	background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/D9ps0DX/Greying-Error9-Full-Site-Sprite-M-C.png) 0px -628px ;
+	background: url(https://i.ibb.co/D9ps0DX/Greying-Error9-Full-Site-Sprite-M-C.png) 0px -628px ;
 }
 
 .darkmode #GreyingError9_footer { color: #999999; font-size: 11px; }
@@ -778,7 +859,7 @@ body {
 
 .darkmode .sidebarpbt h2,
 h3.widgettitle {
-    background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/tC67kMH/Neins-Blog-CSS.png) no-repeat -35px -43px ;
+    background: url(https://i.ibb.co/tC67kMH/Neins-Blog-CSS.png) no-repeat -35px -43px ;
     margin: 0 0 10px 0;
     padding: 10px;
     background-color: initial;
@@ -831,14 +912,14 @@ h3.widgettitle {
 }
 
 .darkmode .wrap-menu-primary .sf-shadow ul {
-    background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://4.bp.blogspot.com/-qBT-7Mi-J5Y/UHipzeBfaoI/AAAAAAAAHiM/j9pqa4aF9xs/s1600/menu-primary-shadow.png) no-repeat bottom right
+    background: url(https://4.bp.blogspot.com/-qBT-7Mi-J5Y/UHipzeBfaoI/AAAAAAAAHiM/j9pqa4aF9xs/s1600/menu-primary-shadow.png) no-repeat bottom right
 }
 
 .darkmode .menu-secondary-container {
     position: relative;
     height: 38px;
     z-index: 300;
-    background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/tC67kMH/Neins-Blog-CSS.png) no-repeat 0px -42px ;
+    background: url(https://i.ibb.co/tC67kMH/Neins-Blog-CSS.png) no-repeat 0px -42px ;
     border: 0px solid #121212
 }
 
@@ -864,13 +945,13 @@ h3.widgettitle {
 .darkmode .menu-secondary li.current_page_item>a,
 .darkmode .menu-secondary li.current-menu-item>a {
     color: #fff;
-    background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://i.ibb.co/tC67kMH/Neins-Blog-CSS.png) no-repeat -114px -91px ;
+    background: url(https://i.ibb.co/tC67kMH/Neins-Blog-CSS.png) no-repeat -114px -91px ;
     outline: 0
 }
 
 .darkmode .tabs-widget li a {
     color: #fff;
-    background: url(https://azoldgimom.cloudimg.io/cdn/n/n/https://3.bp.blogspot.com/-89oZWT7VN1Q/UHip5ezTIPI/AAAAAAAAHi8/mT6t5-yWEbM/s1600/tabs-bg.png) left top repeat-x;
+    background: url(https://3.bp.blogspot.com/-89oZWT7VN1Q/UHip5ezTIPI/AAAAAAAAHi8/mT6t5-yWEbM/s1600/tabs-bg.png) left top repeat-x;
     border: 1px solid #000;
     background-color: initial;
     border-top-color: rgb(102, 102, 102);
@@ -1331,5 +1412,6 @@ h3.widgettitle {
   and (orientation: landscape) {
 
 }
+
 
 
