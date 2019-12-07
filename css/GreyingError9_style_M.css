@@ -57,6 +57,7 @@ h6 { font-size:12px }
 .padthis7 { padding-top: 7px; }
 .padthis10 { padding-top: 10px; }
 .padthis40 { padding-bottom: 40px; }
+.padthis60 { padding-bottom: 60px; }
 .h10 { height: 10px }
 .h20 { height: 20px }
 .h30 { height: 30px }
@@ -368,7 +369,6 @@ ul.list_bullet li a:hover { color: #fff }
 .darkmode #GreyingError9_menu ul li a.blog { background: url(https://i.ibb.co/YDb6mYm/Greying-Error9-DARK-Full-Site-Sprite.png) no-repeat -625px -48px; }
 .darkmode #GreyingError9_menu ul li a.contact { background: url(https://i.ibb.co/YDb6mYm/Greying-Error9-DARK-Full-Site-Sprite.png) no-repeat -752px -48px; }
 
-
 #GreyingError9_menub { float: left; width: 660px; }
 #GreyingError9_menub ul { margin: 0; padding: 1px 0; list-style: none }
 #GreyingError9_menub ul li { display: block; float: left; margin: 0; padding: 8px 12px 8px 10px; background: url(https://i.ibb.co/zGLDNBp/Greying-Error9-Full-Blog-Sprite.png)no-repeat -370px -293px ; }
@@ -394,8 +394,8 @@ ul.list_bullet li a:hover { color: #fff }
 #GreyingError9_menub ul li a.booksm { background: url(https://i.ibb.co/zGLDNBp/Greying-Error9-Full-Blog-Sprite.png) no-repeat -610px -48px; }
 #GreyingError9_menub ul li.last { background: none }
 
-#GreyingError9_middle .col_3 { width: 260px; margin-right: 24px; padding-right: 24px; background: url(https://i.ibb.co/D9ps0DX/Greying-Error9-Full-Site-Sprite-M-C.png) no-repeat -324px -145px }}
-.darkmode #GreyingError9_middle .col_3 { width: 260px; margin-right: 24px; padding-right: 24px; background: url(https://i.ibb.co/YDb6mYm/Greying-Error9-DARK-Full-Site-Sprite.png) no-repeat -324px -145px }}
+#GreyingError9_middle .col_3 { width: 260px; margin-right: 24px; padding-right: 24px; background: url(https://i.ibb.co/D9ps0DX/Greying-Error9-Full-Site-Sprite-M-C.png)no-repeat -324px -145px ;}
+.darkmode #GreyingError9_middle .col_3 { width: 260px; margin-right: 24px; padding-right: 24px; background: url(https://i.ibb.co/YDb6mYm/Greying-Error9-DARK-Full-Site-Sprite.png)no-repeat -324px -145px ;}
 
 #GreyingError9_middle .no_padding_right { padding-right: 0; background: none }
 #GreyingError9_middle h2 { color: #333; font-size: 20px; margin-bottom: 0px }
