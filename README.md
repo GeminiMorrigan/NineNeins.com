@@ -24,9 +24,11 @@ However, Play9NeinsOnline is completley Deprecated. Is is now NineNeins.Com/NN-O
 [x] Avoid all 3rd Party Corporations(Google, Facebook, Twitter, etc) </br>
 [x] No Trackers/Cookies </br> 
 [x] Make site Responsive </br>
-[] Mobile Version </br>
-[] Convert Blog to new Platform </br>
-
+[x] Mobile Version </br>
+[x] Convert Blog to new Platform </br>
+[] Fully Link all content
+[] Add Thumbnail to Pre-Load Video
+[] Add FAQ
 
 :Team Members-
 See Discord.
