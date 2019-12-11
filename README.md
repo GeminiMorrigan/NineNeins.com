@@ -16,18 +16,23 @@ However, Play9NeinsOnline is completley Deprecated. Is is now NineNeins.Com/NN-O
 -Road Map -
 
 [] Fix Current Sound/Vid Issues during Online Play </br>
+  [x] Sound </br>
+  [] Video </br>
 [x] Map Out Css for DarkMode </br>
 [x] Employ DarkMode </br>
 [x] Make DarkMode Persistent across 9Neins </br>
 [x] Add ToggleSwitch for Darkmode </br>
-[] Cycle MetaBrave into the site. </br>
+[x] Cycle MetaBrave into the site. </br>
 [x] Avoid all 3rd Party Corporations(Google, Facebook, Twitter, etc) </br>
 [x] No Trackers/Cookies </br> 
-[x] Make site Responsive </br>
+[x] Make Site Responsive </br>
 [x] Mobile Version </br>
+[x] Page Load Time avg below 1.5 Sec </br>
 [x] Convert Blog to new Platform </br>
-[] Fully Link all content
-[] Add Thumbnail to Pre-Load Video
+[] Fully Link all content </br>
+[] Add Thumbnail to Pre-Load Video </br>
+  [] BitChute </br>
+  [x] YouTube </br>
 [] Add FAQ
 
 :Team Members-
