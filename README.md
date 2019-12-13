@@ -31,9 +31,13 @@ However, Play9NeinsOnline is completley Deprecated. Is is now NineNeins.Com/NN-O
 [x] Convert Blog to new Platform </br>
 [] Fully Link all content </br>
 [] Add Thumbnail to Pre-Load Video </br>
-  [] BitChute </br>
-  [x] YouTube </br>
+  [] BitChute - [x] YouTube - [x]internet Archive </br>
 [] Add FAQ
+[] Add Indexed Search
+  []Archived - []Articles - []Books - []Creators - []Games - []Music - []Video
+[] Put up NineNeins Demo
+
+
 
 :Team Members-
 See Discord.
@@ -43,16 +47,13 @@ See Discord.
 NineNeins.com is the overall picture merging together all aspects of the Nine-Neins Community. We are not just Cartoon Frogs, Radical rhetorhic, Political Motivated Propagandist. We are also developers, creators, innovators, artist, teachers, students, mothers, fathers, and business oriented. 
 Thats what NineNeins.Com is, and how Nine-Neins.Com should be viewed and used.
 
-9Neins.Ga is the place for Cartoon Frogs, Radical rhetoric, Articles, Memes, Music, Videos, Archive, Politically Charged, Propaganda Hangout. Every function has its place. :)
-
-It may come to where this will change just a little bit in format. But the concept still applys.
-
+It may come to where this will change just a little bit in format. But the concept still applys. 
 
 :Join-
-This Repository is open to the Public forthe mere reasoning of Organization and Transparency. There is nothing really here to Open Source, if at all. Could be a Great template to use if you want to learn. However, if you would like to join the Development Team, feel free to join us on <a href="https://www.9neins.ga/p/join-neins-mobile-discord.html">Discord</a>. 
+This Repository is open to the Public for the mere reasoning of Organization and Transparency. There is nothing really here to Open Source, if at all. Could be a Great template to use if you want to learn. However, if you would like to join the Development Team, feel free to join us on <a href="https://www.9neins.ga/p/join-neins-mobile-discord.html">Discord</a>. 
 
 :Massive thanks to- 
-In this era of censorship. 9Neins has been thrown through the ringer which has slowed our development down, and to the point at times not moving at all. Those who deserve a Massive Thank You are companies who without- and are NOT actual contributors to the 9Neins Project nor development - but deserve recognition on our web presence without a doubt.Starting with:
+In this era of censorship. 9Neins has been thrown through the ringer which has slowed our development down, and to the point at times not moving at all. Those who deserve a Massive Thank You are companies who without- and are NOT actual contributors- to the 9Neins Project nor development - but deserve recognition on our web presence without a doubt.Starting with:
 
 <center>
   
@@ -70,10 +71,8 @@ In this era of censorship. 9Neins has been thrown through the ringer which has s
 
 Making it all possible on the Web.
 
-Other Mentions are those whose services we have acquired and thank them for such amazing quality and service:
+Other Mentions are those whose services we adore and thank them for such amazing quality of epic tools:
 <center>
-  
-  <a href="https://www.cloudimage.io/en/home?ref=greyingerror" target="_blank">CloudImage</a>
   
   <a href="https://tinypng.com/third-party" target="_blank">TinyPng</a>
   
