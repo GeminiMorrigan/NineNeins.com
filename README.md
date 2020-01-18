@@ -35,6 +35,7 @@ However, Play9NeinsOnline is completley Deprecated. Is is now NineNeins.Com/NN-O
   [x] YouTube </br>
 [] Add FAQ
 
+
 :Team Members-
 See Discord.
 
@@ -43,7 +44,8 @@ See Discord.
 NineNeins.com is the overall picture merging together all aspects of the Nine-Neins Community. We are not just Cartoon Frogs, Radical rhetorhic, Political Motivated Propagandist. We are also developers, creators, innovators, artist, teachers, students, mothers, fathers, and business oriented. 
 Thats what NineNeins.Com is, and how Nine-Neins.Com should be viewed and used.
 
-9Neins.Ga is the place for Cartoon Frogs, Radical rhetoric, Articles, Memes, Music, Videos, Archive, Politically Charged, Propaganda Hangout. Every function has its place. :)
+Site to be finished end of Jan!
+
 
 It may come to where this will change just a little bit in format. But the concept still applys.
 
