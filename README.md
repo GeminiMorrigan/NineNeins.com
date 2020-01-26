@@ -14,6 +14,9 @@ The Main Changes is mostly Links, Domains, Host, and another with a Blog Softwar
 However, Play9NeinsOnline is completley Deprecated. Is is now NineNeins.Com/NN-Online. DarkMode(Beta) has been Launched, MetaBrave/Active NN-Online/and A complete Blog Switch will be included in the 0.8 Release. By 0.9 release after everything Is in motion, a Mobile Section will be added. Upon Release will become NineNeins.com 1.0. 
 
 -Road Map -
+Internet Archive links  to be broken
+
+
 
 [] Fix Current Sound/Vid Issues during Online Play </br>
   [x] Sound </br>
