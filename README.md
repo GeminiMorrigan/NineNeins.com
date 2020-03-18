@@ -11,12 +11,13 @@ The Main Changes is mostly Links, Domains, Host, and another with a Blog Softwar
 
 9Neins.Ga will still serve as a SubDomain. However, changing Platforms on the new system for the Blog itself, will determine whether the Blog will stay as 9Neins.Ga, or change to NineNeins.Com/Blog . There are Pros and Cons with each. 
 
-However, Play9NeinsOnline is completley Deprecated. Is is now NineNeins.Com/NN-Online. DarkMode(Beta) has been Launched, MetaBrave/Active NN-Online/and A complete Blog Switch will be included in the 0.8 Release. By 0.9 release after everything Is in motion, a Mobile Section will be added. Upon Release will become NineNeins.com 1.0. 
+Update- 9Neins.GA will serve as a Frontend for quick updates, storage, and Indexing purposes. NineNeins/Blog will serve as a integration non-linked version. This is for a Permanent(Static) hold and not effected by anything that happens at 9neins.Ga... a buckup reservation. As 9Neins.Ga
+
+Internet Archive has been removed 100% from Nine-Neins. 
+
+Also, Play9NeinsOnline is completley Deprecated. Is is now NineNeins.Com/NN-Online. DarkMode(Beta) has been Launched, MetaBrave/Active NN-Online/and A complete Blog Switch will be included in the 0.8 Release. By 0.9 release after everything Is in motion, a Mobile Section will be added. Upon Release will become NineNeins.com 1.0. 
 
 -Road Map -
-Internet Archive links  to be broken
-
-
 
 [] Fix Current Sound/Vid Issues during Online Play </br>
   [x] Sound </br>
@@ -43,16 +44,11 @@ Begin Relink
 :Team Members-
 See Discord.
 
-
 :Usage- 
 NineNeins.com is the overall picture merging together all aspects of the Nine-Neins Community. We are not just Cartoon Frogs, Radical rhetorhic, Political Motivated Propagandist. We are also developers, creators, innovators, artist, teachers, students, mothers, fathers, and business oriented. 
 Thats what NineNeins.Com is, and how Nine-Neins.Com should be viewed and used.
 
-Site to be finished end of Jan!
-
-
 It may come to where this will change just a little bit in format. But the concept still applys.
-
 
 :Join-
 This Repository is open to the Public forthe mere reasoning of Organization and Transparency. There is nothing really here to Open Source, if at all. Could be a Great template to use if you want to learn. However, if you would like to join the Development Team, feel free to join us on <a href="https://www.9neins.ga/p/join-neins-mobile-discord.html">Discord</a>. 
