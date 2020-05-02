@@ -47,17 +47,19 @@ h1 { font-size:34px; margin-bottom: 35px  }
 h2 { font-size:26px; margin-bottom: 30px; line-height: 30px; }
 h3 { font-size:20px; line-height: 24px }
 h4 { font-size:18px }
-h5 { font-size:16px }
+h5 { font-size:26px; margin-bottom: 15px; line-height: 10px; }
 h6 { font-size:12px }
 
 .left { float:left }
 .right { float:right }
 .clear { clear: both }
+
 .padthis5 { padding-top: 5px; }
 .padthis7 { padding-top: 7px; }
 .padthis10 { padding-top: 10px; }
 .padthis40 { padding-bottom: 40px; }
 .padthis60 { padding-bottom: 60px; }
+
 .h10 { height: 10px }
 .h20 { height: 20px }
 .h30 { height: 30px }
@@ -99,9 +101,11 @@ ul.list_bullet li a:hover { color: #fff }
 .content_mb_30 { margin-bottom: 30px; }
 .content_mb_60 { margin-bottom: 60px }
 
+.col_2, .col_3, .col_4, .col_23, .col_34, .col_q { float:left; margin: 0 60px 0 0 }
+
 .col_2 {width:420px; color: #fff;}
 .col_3 {width:260px; color: #666;}
-.col_4 {width:180px; color: 999999;}
+.col_4 {width:180px; color: #999999;}
 .col_23 {width:580px;}
 .col_34 {width:660px; color: #fff;}
 .col_q {width:180px; color: #999999;}
@@ -113,18 +117,20 @@ ul.list_bullet li a:hover { color: #fff }
 .darkmode .col_34 {width:660px; color: #fff;}
 .darkmode .col_q {width:180px; color: #999999;}
 
-.col_2, .col_3, .col_4, .col_23, .col_34, .col_q { float:left; margin: 0 60px 0 0 }
-
 .col_4 .img_ic { margin-right: 15px }
 .col_4 .text { float: right; display: block; width: 130px }
 .col_4 .text h3 { margin-bottom: 10px }
 .col_q .text { float: right; display: block; width: 130px }
 .col_q .text h3 { margin-bottom: 10px }
 
-.left {float:left }
-.right {float:right }
 .no_margin_right {margin-right:0 !important;}
 .margin_bottom { margin-bottom: 30px }
+
+/*Scroll Menus*/
+.vertical-menuTech { width: 215px; height: 525px; overflow-y: auto; }
+.vertical-menuTechB { width: 735px; height: 493px; overflow-y: auto; }
+.vertical-menuBook  { width: 215px; height: 525px; overflow-y: auto; }
+.vertical-blog { width: 215px; height: 493px; overflow-y: auto; }
 
 #GreyingError9_wrapper {
 	width: 980px;
@@ -239,6 +245,13 @@ ul.list_bullet li a:hover { color: #fff }
 	margin-bottom: 10px;
 }
 
+.innertube {
+    margin-left: 15px; /* Padding for content */
+    margin-right: 15px;
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+
 #GreyingError9_main { clear: both; margin: 20px 0; padding: 20px 40px }
 #GreyingError9_main_s { clear: both; margin: 0px 0; padding: 0px 40px }
 #GreyingError9_content { width: 580px }
@@ -249,7 +262,6 @@ ul.list_bullet li a:hover { color: #fff }
 	width: 100%;
 	background: #f1f1f1;
 }
-
 .darkmode #GreyingError9_footer_wrapper {
 	clear: both;
 	width: 100%;
@@ -260,7 +272,14 @@ ul.list_bullet li a:hover { color: #fff }
 	margin: 0 auto;
 	padding: 40px;
 }
-
+#footer {
+    clear: left;
+    width: 100%;
+    height: 20px;
+    background: #999999;
+    text-align: center;
+    padding: .2px 0;
+}
 #GreyingError9_search { float: right; width: 280px; height: 30px; background:url(https://i.ibb.co/D9ps0DX/Greying-Error9-Full-Site-Sprite-M-C.png) -700px -0px;}
 .darkmode #GreyingError9_search { float: right; width: 280px; height: 30px; background:url(https://i.ibb.co/YDb6mYm/Greying-Error9-DARK-Full-Site-Sprite.png) -700px -0px;}
 #GreyingError9_search form {
@@ -647,23 +666,6 @@ canvas.emscripten { border: 0px none; background-color: black; width: 100%; heig
 
   border-radius: 100%;
   background-color: rgb(189, 215, 46);
-}
-
-@-webkit-keyframes rotation {
-  from {-webkit-transform: rotate(0deg);}
-  to {-webkit-transform: rotate(360deg);}
-}
-@-moz-keyframes rotation {
-  from {-moz-transform: rotate(0deg);}
-  to {-moz-transform: rotate(360deg);}
-}
-@-o-keyframes rotation {
-  from {-o-transform: rotate(0deg);}
-  to {-o-transform: rotate(360deg);}
-}
-@keyframes rotation {
-  from {transform: rotate(0deg);}
-  to {transform: rotate(360deg);}
 }
 
 #statusbar_container {
