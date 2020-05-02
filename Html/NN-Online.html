@@ -1,0 +1,442 @@
+<!-- 
+    Creator : GreyingError
+    Site : https://www.NineNeins.com
+    Blog : https://www.9Neins.ga
+    Email : GreyingError@ProtonMail.com
+    GitHub : 9neinG
+    Discord : GreyingError#1093
+
+    Project : NineNeins.Com Website Theme
+    Language : HTML
+-->
+<!-- 
+    Game
+    Link Chain : Home, Services, Blog, Contact 
+-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>9N-PlayOnline</title>
+    <meta name="description" content="" />
+    <link href="https://cdn.jsdelivr.net/gh/9NeinsG/NineNeins.com@87a7b0f/css/GreyingError9_style_M.css" rel="stylesheet" type="text/css" media="screen"/>
+    <!--<link href="css/GreyingError9_style_M.css" rel="stylesheet" type="text/css" media="screen" />-->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <script>
+      var DEFAULT_GAME_FILENAME = 'game.zip';
+    </script>
+</head>
+    <style type="text/css">
+
+        #footer {
+            clear: left;
+            width: 100%;
+            height: 20px;
+            background: #999999;
+            text-align: center;
+            padding: .2px 0;
+        }
+    </style>   
+
+<body>
+  <div id="ContextContainer">
+    <a id="ContextButton">&#8801;</a><br />
+    <div id="ContextMenu" style="display: none;">
+      <input id="ID_SavegamesImport" type="file" onchange="onSavegamesImport(this)" accept="application/zip" style=display:none></input>
+      <a href="" target="_Login"></a>MetaBrave Login<br />
+      <a href="javascript:document.getElementById('ID_SavegamesImport').click();">Import</a><br />
+      <a href="javascript:onSavegamesExport();">Export</a><br />
+      <a href="javascript:FSDownload('/log.txt');">Log Neins</a><br />
+      <a href="https://NineNeins.com/" target="_Site">
+        <span style="font-size: smaller">
+          <span style="color: dimgrey">Sponsors</span>
+          <!--RenPyWeb-->
+        </span>
+      </a><br />
+      <a href="https://NineNeins.com/" target="_Site">Micro FAQ</a><br />
+      <a href="https://NineNeins.com/" target="_Site">Mobi FAQ</a><br />
+      <a href="https://NineNeins.com/" target="_Site">MeBe FAQ</a><br />
+      </span>
+  </div>
+    </div>
+    <div id="GreyingError9_wrapper">
+        <div id="GreyingError9_header">
+            <div id="site_title"><a href="#">9-Neins</a></div>
+            <div id="GreyingError9_menu">
+                <ul>
+                    <li><a href="https://www.NineNeins.com/" class="home">Home</a></li>
+                    <li><a href="https://www.NineNeins.com/tech" class="services">Tech</a></li>
+                    <li><a href="https://www.NineNeins.com/NN-Online" class="online">NN-Online</a></li>
+                    <li><a href="https://www.NineNeins.com/blog" class="blog">Blog</a></li>
+                    <li class="last"><a href="https://www.Nineneins.com/contact" class="contact">Contact</a></li>
+                </ul>
+                <a id="dark-mode-toggle" class="dark-mode-toggle">
+                <svg width="50%" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 496 496">
+                    <path fill="currentColor" d="M8,256C8,393,119,504,256,504S504,393,504,256,393,8,256,8,8,119,8,256ZM256,440V72a184,184,0,0,1,0,368Z" transform="translate(-8 -8)" /></path>
+                </svg>
+                </a>
+            </div>
+            <!-- end of GreyingError9_menu -->
+        </div>
+      <div id="GreyingError9_middle"  style="padding-bottom: 25px">
+        <div class="col_3">
+            <h2><a href="https://www.nineneins.com/contact.html">Central Hub</a></h2>
+              <div class="GreyingError9_discordi img_ic"></div>        
+              <p>Join the conversation. Explore & help each other.</p>
+              <p>Many things to unlock, many place backup will be useful.</p>
+          </div>
+          <div class="col_3">
+            <h2><a href="https://brave.com/nin359">Launch Pack</a></h2>
+              <div class="GreyingError9_ratedi img_ic"></div> 
+              <p>Still In Progress</p>
+          </div>
+          <div class="col_3 no_margin_right no_padding_right">
+            <h2><a href="https://archive.org/details/@nineneins">MicroClient</a></h2>
+              <div class="GreyingError9_nineneinsi img_ic"></div>         
+              <p>The 9Neins Micro Client is absolutley free, Higher Resolution, More Content, Play like a Pro.</p>
+         </div>
+        </div> <!-- END of middle -->
+        <!--Begin Game Container-->
+        <div id="statusbar_container" ;>
+        <div id="statusbar" ;>
+          <div class="spinner" id='spinner'></div>
+          <div style="margin-left: 5px;">
+            <div class="emscripten" id="status">Coming Soon... Join Us On Discord</div>
+            <progress value="0" max="100" id="progress" hidden=1></progress>
+          </div>
+        </div>
+      </div>  
+      <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" tabindex=-1></canvas>
+
+    <script>
+      // Subtly hint at lack of WebAssembly support (if applicable)
+      if (typeof WebAssembly !== 'object') {
+          var error_message = "Unsupported browser - please upgrade!\n(WebAssembly support needed)";
+          document.body = document.createElement('body');
+          document.body.innerHTML = error_message.replace('\n', '<br />');
+          location.href = 'javascript:alert("' + error_message.replace('\n', '\\n') + '")';
+          throw error_message;
+          window.stop();
+          // R.I.P.
+      }
+      // Work-around iframe focus
+      // https://github.com/emscripten-core/emscripten/pull/7631
+      document.getElementById('canvas').addEventListener('mouseenter', function(e) { window.focus() });
+      document.getElementById('canvas').addEventListener('click', function(e) { window.focus() });
+      // Work-around chromium autoplay policy
+      // https://github.com/emscripten-core/emscripten/issues/6511
+      function resumeAudio(e) {
+          if (typeof Module === 'undefined'
+              || typeof Module.SDL2 == 'undefined'
+              || typeof Module.SDL2.audioContext == 'undefined')
+              return;
+          if (Module.SDL2.audioContext.state == 'suspended') {
+              Module.SDL2.audioContext.resume();
+          }
+          if (Module.SDL2.audioContext.state == 'running') {
+              document.getElementById('canvas').removeEventListener('click', resumeAudio);
+              document.removeEventListener('keydown', resumeAudio);
+          }
+      }
+      document.getElementById('canvas').addEventListener('click', resumeAudio);
+      document.addEventListener('keydown', resumeAudio);
+    </script>
+
+      <script type='text/javascript'>
+        /* Copyright (C) 2018, 2019  Sylvain Beucler */
+        /* Context menu */
+        document.getElementById('ContextButton').addEventListener('click', function (e) {
+          var menu = document.getElementById('ContextMenu');
+          if (menu.style.display == 'none')
+            menu.style.display = 'block';
+          else
+            menu.style.display = 'none';
+          e.preventDefault();
+        });
+        function onSavegamesImport(input) {
+          reader = new FileReader();
+          reader.onload = function(e) {
+            FS.writeFile('savegames.zip', new Uint8Array(e.target.result));
+            Module._emSavegamesImport();
+            FS.syncfs(false, function(err) {
+              if (err) {
+                console.trace(); console.log(err, err.message);
+                Module.print("Warning: cannot import savegames: write error: " + err.message + "\n");
+              } else {
+                Module.print("Saves imported - restart game to apply.\n");
+              }
+            });
+          }
+          reader.readAsArrayBuffer(input.files[0])
+      input.type = ''; input.type = 'file'; // reset field
+        }
+        function onSavegamesExport() {
+          ret = Module._emSavegamesExport();
+          if (ret) {
+            FSDownload('savegames.zip');
+          }
+        }
+        function gameExtractAndRun() {
+          start = Date.now();
+          var ret = Module.ccall('PyRun_SimpleString', 'number', ['string'], [
+            "import zipfile\n" +
+            "zip_ref = zipfile.ZipFile('game.zip', 'r')\n" +
+            "zip_ref.extractall('.')\n" +
+            "zip_ref.close()\n"
+          ])
+          if (ret != 0) {
+              Module.setStatus("Error extracting .zip.");
+              return;
+          }
+          FS.unlink('/game.zip')
+          Module.print("Extracted in " + (Date.now()-start)/1000.0 + "s\n");
+          if (FS.readdir('/').indexOf('game') < 0) {
+              Module.setStatus("Invalid .zip (no top-level 'game' directory).");
+              return;
+          }
+          // presplash
+          presplash = undefined;
+          if (FS.readdir('/').indexOf('Presplash.png') >= 0) {
+            presplash = FS.readFile('/Presplash.png');
+          } else if (FS.readdir('/').indexOf('Presplash.png') >= 0) {
+            presplash = FS.readFile('/Presplash.png');
+          } else if (FS.readdir('/').indexOf('Presplash.png') >= 0) {
+            presplash = FS.readFile('/Presplash.png');
+          }
+          div = document.createElement('div');
+          div.id = 'presplash';  // used by presplashEnd()
+          div.style = 'position: absolute; width: 100%; height: 100%';
+          c = document.getElementById('canvas');
+          c.parentElement.prepend(div);
+          if (presplash) {
+            obj_url = window.URL.createObjectURL(new Blob([presplash]));
+            img = document.createElement('img');
+            img.src = obj_url;
+            img.style = 'display: block; margin: auto; width: 100%; height: 100%; object-fit: contain';
+            div.appendChild(img)
+          } else {
+            Module.print("Loading game, please wait...\n");
+          }
+          // give control back to webui before running main
+          window.setTimeout(function() {
+            Module.ccall('pyapp_runmain', '', [], [], {async: true})
+          }, 200);  // smaller delay doesn't update the DOM, esp. on mobile
+        }
+        // hook for Ren'Py
+        function presplashEnd() {
+          document.getElementById('presplash').remove();
+        }
+        function FSDownload(filename) {
+          console.log('download', filename);
+          a = document.createElement('a');
+          a.download = filename.replace(/.*\//, '');
+          try {
+            a.href = window.URL.createObjectURL(new Blob([FS.readFile(filename)]));
+          } catch(e) {
+            Module.print("Error opening " + filename + "\n");
+            return;
+          }
+          document.body.appendChild(a);
+          a.click();
+          window.URL.revokeObjectURL(a.href);
+          document.body.removeChild(a);
+        }
+      </script>
+      <script type='text/javascript'>
+        var statusElement = document.getElementById('status');
+        var progressElement = document.getElementById('progress');
+        var spinnerElement = document.getElementById('spinner');
+        var Module = {
+          preRun: [],
+          postRun: [],
+          print: (function() {
+            var element = document.getElementById('status');
+            return function(text) {
+              if (arguments.length > 1) text = Array.prototype.slice.call(arguments).join(' ');
+              console.log(text);
+              // These replacements are necessary if you render to raw HTML
+              text = String(text);
+              text = text.replace(/&/g, "&amp;");
+              text = text.replace(/</g, "&lt;");
+              text = text.replace(/>/g, "&gt;");
+              text = text.replace('\n', '<br />', 'g');
+              element.innerHTML += text;
+              statusbar = document.getElementById('statusbar');
+              statusbar.hidden = false;
+              var print_date = new Date();
+              statusbar.date = print_date;
+              window.setTimeout(function() {
+                // Hide status bar after a few seconds - only if setStatus isn't active
+                if (Module.setStatus.last && Module.setStatus.last.text == ''
+                    && statusbar.date == print_date) {
+                  element.innerHTML = ''; statusbar.hidden = true;
+                }
+              }, 3000);
+            };
+          })(),
+          printErr: function(text) {
+            if (arguments.length > 1) text = Array.prototype.slice.call(arguments).join(' ');
+            if (0) { // XXX disabled for safety typeof dump == 'function') {
+              dump(text + '\n'); // fast, straight to the real console
+            } else {
+              console.error(text);
+            }
+          },
+          canvas: (function() {
+            var canvas = document.getElementById('canvas');
+            // As a default initial behavior, pop up an alert when webgl context is lost. To make your
+            // application robust, you may want to override this behavior before shipping!
+            // See http://www.khronos.org/registry/webgl/specs/latest/1.0/#5.15.2
+            canvas.addEventListener("webglcontextlost", function(e) { alert('WebGL context lost. You will need to reload the page.'); e.preventDefault(); }, false);
+            return canvas;
+          })(),
+          setStatus: function(text) {
+            if (!Module.setStatus.last) Module.setStatus.last = { time: Date.now(), text: '' };
+            if (text === Module.setStatus.last.text) return;
+            var m = text.match(/([^(]+)\((\d+(\.\d+)?)\/(\d+)\)/);
+            var now = Date.now();
+            if (m && now - Module.setStatus.last.time < 30) return; // if this is a progress update, skip it if too soon
+            Module.setStatus.last.time = now;
+            Module.setStatus.last.text = text;
+            if (m) {
+              text = m[1];
+              progressElement.value = parseInt(m[2])*100;
+              progressElement.max = parseInt(m[4])*100;
+              progressElement.hidden = false;
+              spinnerElement.hidden = false;
+            } else {
+              progressElement.value = null;
+              progressElement.max = null;
+              progressElement.hidden = true;
+              if (!text) spinnerElement.style.display = 'none';
+            }
+            if (text == '') {
+              statusElement.innerHTML = '';
+              document.getElementById('statusbar').hidden = true;
+            } else {
+              statusElement.innerHTML = text + '<br />';
+              document.getElementById('statusbar').hidden = false;
+            }
+          },
+          totalDependencies: 0,
+          monitorRunDependencies: function(left) {
+            this.totalDependencies = Math.max(this.totalDependencies, left);
+            Module.setStatus(left ? 'Preparing... (' + (this.totalDependencies-left) + '/' + this.totalDependencies + ')' : 'All downloads complete.');
+          }
+        };
+        Module.setStatus('Downloading...');
+        window.onerror = function(event) {
+          // TODO: do not warn on ok events like simulating an infinite loop or exitStatus
+          //Module.setStatus('Exception thrown, see JavaScript console');
+          // Explicitly display meaningful errors such as "uncaught exception: out of memory":
+          Module.setStatus('Error: ' + event.split('\n')[0] + ' (see JavaScript console for details)');
+          spinnerElement.style.display = 'none';
+          Module.setStatus = function(text) {
+            if (text) Module.printErr('[post-exception status] ' + text);
+          };
+        };
+      </script>
+      <script type='text/javascript' src="pythonhome-data.js"></script>
+      <script type='text/javascript' src="pyapp-data.js"></script>
+      <script type='text/javascript'>
+        function create_persistent() {
+          // populate savegames
+          try {
+            FS.mkdir('/home/web_user/.renpy');
+            FS.mount(IDBFS, {}, '/home/web_user/.renpy');
+          } catch(e) {
+            console.log(e);
+            Module.print("Could not create ~/.renpy/ : " + e.message + "\n");
+          }
+          FS.syncfs(true, function(err) {
+            if (err) {
+                console.trace(); console.log(err, err.message);
+                // Note: not visible enough, quickly replaced by loading status
+                Module.print("Warning: cannot save games\n");
+            }
+          });
+        }
+        if (Module['calledRun']) {
+          create_persistent();
+        } else {
+          if (!Module['preRun']) Module['preRun'] = [];
+          Module["preRun"].push(create_persistent); // FS is not initialized yet, wait for it
+        }
+      </script> 
+
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/9NeinsG/NineNeins.com@33eda64/js/DarkMode/DarkMode.js"></script>
+      <style>
+      img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
+        display: none;
+      }
+      </style>
+      <script type="text/javascript" src="zee.js"></script>
+      <script async type="text/javascript" src="index.js"></script>                  
+    <!-- END of GreyingError9_wrapper -->
+    <footer id="footer">
+        <div class="content_wrapper" >
+            <div style="height: 20px">
+                <center><div><a id="eth_button" onclick="onEthTipButtonClick();"><span style="font-family: &quot;;"><button class="btn"><i class="fa fa-download"></i>Contribute $1</button></span></a>
+                <a id="eth_button" onclick="onEth5ButtonClick();"><span style="font-family: &quot;;"><button class="btn"><i class="fa fa-download"></i>Contribute $5</button></span></a>
+                <a id="eth_button" onclick="onEth10ButtonClick();"><span style="font-family: &quot;;"><button class="btn"><i class="fa fa-download"></i>Contribute $10</button></span></a>
+                <a id="eth_button" onclick="onEth20ButtonClick();"><span style="font-family: &quot;;"><button class="btn"><i class="fa fa-download"></i>Contribute $20</button></span></a>
+                <a id="eth_button" onclick="onEth50ButtonClick();"><span style="font-family: &quot;;"><button class="btn"><i class="fa fa-download"></i>Contribute $50</button></span></a>
+                <a id="eth_button" onclick="onEth100ButtonClick();"><span style="font-family: &quot;;"><button class="btn"><i class="fa fa-download"></i>Contribute $99</button></span></a>
+                <a id="eth_button" onclick="onEthSponButtonClick();"><span style="font-family: &quot;;"><button class="btn"><i class="fa fa-download"></i>Sponsor 9Neins</button></span></a></div></center>
+            </div>
+        </div>
+    </footer>
+
+    <div id="GreyingError9_footer_wrapper">
+        <div id="GreyingError9_footer">
+            <div class="col_4">
+                <h4>Pages</h4>
+                <ul class="nobullet bottom_list">
+                    <li><a href="https://www.NineNeins.com/" class="home">Home</a></li>
+                    <li><a href="https://www.NineNeins.com/services" class="services">Services</a></li>
+                    <li><a href="https://www.NineNeins.com/NN-Online" class="online">NN-Online</a></li>
+                    <li><a href="https://www.NineNeins.com/blog" class="blog">Blog</a></li>
+                    <li class="last"><a href="https://www.NineNeins.com/contact.pfp" class="contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col_4">
+                <h4>Our Partners</h4>
+                <ul class="nobullet bottom_list">
+                    <li><a href="https://brave.com/nin359" target="_brave">Brave</a></li>
+                    <li><a href="https://www.000webhost.com/1186696.html" target="_ad">000Host</a></li>
+                    <li><a href="https://www.cloudimage.io/en/home?ref=greyingerror" target="_ad">CloudIO</a></li>
+                    <li><a href="https://my.freenom.com/" target="_ad">Freenom</a></li>
+                    <li><a href="https://www.waves.com/r/kztmi7" target="ad">Waves</a></li>
+                </ul>
+            </div>
+            <div class="col_4">
+                <h4>Links</h4>
+                <ul class="nobullet bottom_list">
+                    <li><a href="http://africancrisis.info/" target="_jan">Jan Lamprecht </a></li>
+                    <li><a href="https://baricada.shitlordsorg.com/wp/" target="mnr">Baricada</a></li>
+                    <li><a href="https://europeansworldwide.wordpress.com/" target="walsh">Ethnic-European</a></li>
+                    <li><a href="https://christophercantwell.com/" target="chris">Christopher Cantwell</a></li>
+                    <li><a href="https://www.bitchute.com/profile/hKy1vTgf6b8A/" target="jim">Jim Rizoli</a></li>
+                </ul>
+            </div>
+            <div class="col_q no_margin_right">
+                <h4>Quote</h4>
+                <p>"9Neins is More Than a Game. We are a Development.</p>
+                <p>Spirits Rising From the Grave!&quot;</p> <a href="#">-GreyingError</a> </div>
+            <div class="clear"></div>
+            <div id="GreyingError9_copyright"> Copyright © 2020 - 9Neins
+                <!-- Credit: www.GreyingError9.com -->
+            </div>
+        </div>
+        <!-- END of GreyingError9_footer -->
+        <style>
+        img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
+            display: none;
+        }
+        </style>
+      </div>
+    </div>    
+  </div>  
+</body>
+</html>
