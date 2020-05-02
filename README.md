@@ -9,7 +9,7 @@ Changes-(Update)
 The Original Design was planned and was so successful it has become Deprecated due to this project got far to large (Over Exceeded by a Large Margin), far to fast. 
 The Main Changes are mostly Links, Domains, Host, and another with a Blog Software Change.
 
-``9Neins.Ga will still serve as a SubDomain. However, changing Platforms on the new system for the Blog itself, will determine whether the Blog will stay as 9Neins.Ga,`` or change to NineNeins.Com/Blog . ``There are Pros and Cons with each.``
+<del>9Neins.Ga will still serve as a SubDomain. However, changing Platforms on the new system for the Blog itself, will determine whether the Blog will stay as 9Neins.Ga,</del> or change to NineNeins.Com/Blog . <del>There are Pros and Cons with each.</del>
 
 Internet Archive has been removed 100% from Nine-Neins - has become unreliable. 
 
