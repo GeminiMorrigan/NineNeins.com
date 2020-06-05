@@ -2,19 +2,14 @@
 
 
 NineNeins.Com </br>
-<a href="https://www.NineNeins.com" target="_Website"><img alt="Website" src="https://img.shields.io/website?style=for-the-badge&url=https%3A%2F%2Fwww.NineNeins.com"></a> ![Discord](https://img.shields.io/discord/716347055907405845?style=for-the-badge)<a href="https://www.NineNeins.com" target="_Website"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/9NeinsG/NineNeins.com?style=for-the-badge"></a></br>
+<a href="https://www.NineNeins.com" target="_Website"><img alt="Website" src="https://img.shields.io/website?style=for-the-badge&url=https%3A%2F%2Fwww.NineNeins.com"></a>![Discord](https://img.shields.io/discord/716347055907405845?style=for-the-badge)<a href="https://www.NineNeins.com" target="_Website"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/9NeinsG/NineNeins.com?style=for-the-badge"></a></br>
+<a>![Mastodon Follow](https://img.shields.io/mastodon/follow/908552?color=brightgreen&domain=https%3A%2F%2Fgab.com%2F&label=%40GreyingError%20on%20Gab&style=for-the-badge)</a></br>
 
 
 Changes-(Update)
-The Original Design was planned and was so successful it has become Deprecated due to this project got far to large (Over Exceeded by a Large Margin), far to fast. 
-The Main Changes are mostly Links, Domains, Host, and another with a Blog Software Change.
-
-<del>9Neins.Ga will still serve as a SubDomain. However, changing Platforms on the new system for the Blog itself, will determine whether the Blog will stay as 9Neins.Ga,</del> or change to NineNeins.Com/Blog . <del>There are Pros and Cons with each.</del>
-
-Internet Archive has been removed 100% from Nine-Neins - has become unreliable. 
-
-Also, Play9NeinsOnline is completley Deprecated. Is is now NineNeins.Com/NN-Online. 
-DarkMode(Beta) has been Launched, MetaBrave is Active, NN-Online is running, and A complete Blog Switch is coming.
+New GAB Widget being skinned, but 100% working.
+Will be switching default mode to DarkMode... by popular request. 
+New Integrations announced soon.
 
 -Road Map -
 
