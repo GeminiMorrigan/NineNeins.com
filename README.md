@@ -2,7 +2,7 @@
 
 
 NineNeins.Com </br>
-<a href="https://www.NineNeins.com" target="_Website"><img alt="Website" src="https://img.shields.io/website?style=for-the-badge&url=https%3A%2F%2Fwww.NineNeins.com"></a> <a href="https://discord.gg/cPbTHDK" target="_Discord"><img alt="Discord" src="https://img.shields.io/discord/624890732330876938?style=for-the-badge"></a><a href="https://www.NineNeins.com" target="_Website"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/9NeinsG/NineNeins.com?style=for-the-badge"></a></br>
+<a href="https://www.NineNeins.com" target="_Website"><img alt="Website" src="https://img.shields.io/website?style=for-the-badge&url=https%3A%2F%2Fwww.NineNeins.com"></a> ![Discord](https://img.shields.io/discord/716347055907405845?style=for-the-badge)<a href="https://www.NineNeins.com" target="_Website"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/9NeinsG/NineNeins.com?style=for-the-badge"></a></br>
 
 
 Changes-(Update)
