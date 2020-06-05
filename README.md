@@ -43,50 +43,21 @@ NineNeins.com is the overall picture merging together all aspects of the Nine-Ne
 
 Thats what NineNeins.Com is, and how Nine-Neins.Com should be viewed and used. 
 
-
 :Join-
-This Repository is open to the Public forthe mere reasoning of Organization and Transparency. 
+This Repository is open to the Public for the mere reasoning of Organization and Transparency. 
 (No Trackers, Wares, Viruses, Trojans, Fingerprints, Cookies, or Data collection of any kind) 
 
-There is nothing really here to Open Source, if at all. Could be a Great template to use if you want to learn web(HtMl or CSS). 
-However, if you would like to join the Development Team, feel free to join us on <a href="https://www.9neins.ga/p/join-neins-mobile-discord.html">Discord</a>. 
+There is nothing really here to Open Source, if at all. Could be a Great template to use if you want to learn web(HtMl, JS, CSS, etc). 
+However, if you would like to join the Development Team simply contact, join Discord server, gab, email, or straight from Github up to you.
 
 :Massive thanks to- 
 In this era of censorship. 9Neins has been thrown through the ringer which has slowed our development down, and to the point at times not moving at all. Those who deserve a Massive Thank You are companies who without- and are NOT actual contributors to the 9Neins Project nor development - but deserve recognition on our web presence without a doubt. 
 
 Starting with:
 <center>
-  
-  <a href="https://brave.com/nin359" target="_blank">Brave-Browser</a>
-  
-  <a href="https://metamask.io/" target="_blank">Meta-Mask</a>
-  
-  <a href="https://www.000webhost.com/1186696.html" target="_blank">000WebHost</a>
-  
-  <a href="https://my.freenom.com/" target="_blank">Freenom</a>
-  
-  <a href="https://imgbb.com/" target="_blank">Imgbb</a>
-  
+  <a href="https://brave.com/nin359" target="_blank">Brave-Browser</a></br>
+  <a href="https://www.9neins.ga/p/recommend-softwares.html" target="_blank">Sponsored</a></br>
+  <a href="https://www.nineneins.com/tech" target="_blank">Non-Sponsored</a></br>
 </center>
 
-Making it all possible on the Web.
-
-Other Mentions are those whose services we have acquired and thank them for such amazing quality and service:
-<center>
-  
-  <a href="https://www.cloudimage.io/en/home?ref=greyingerror" target="_blank">CloudImage</a>
-  
-  <a href="https://tinypng.com/third-party" target="_blank">TinyPng</a>
-  
-</center>
-
-Online tools which deserve a shoutout. 
-<center>
-  
-  <a href="https://brave.com/nin359" target="_blank">Beautify-Tools</a>
-  
-  <a href="https://brave.com/nin359" target="_blank">Varvy</a>
-  
-  <a href="https://brave.com/nin359" target="_blank">GTmetrix</a>
-  
-</center>
+Making it all possible on the Web. 
