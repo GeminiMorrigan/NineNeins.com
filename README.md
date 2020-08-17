@@ -1,5 +1,6 @@
 # NineNeins.com
 
+UPDATE - Been working on raising finances to finish projects. Due to so many limited sources of funding has slowed things way down. Will be more active now things have become more steady. Will be outsourcing a few things to help consolidate since the team has grown in my absence. Glad to see Cyber is still alive and thriving, although it may not seem like it from the outside. Sadly offline is the only way forward, organize locally, I only hope NineNeins can be something to help those taking leadership for the first time, or need inspiration, library, and resources. Nine-Neins is going nowhere only will become bigger and better as we continue to fight on.  
 
 NineNeins.Com </br>
 <a href="https://www.NineNeins.com" target="_Website"><img alt="Website" src="https://img.shields.io/website?style=for-the-badge&url=https%3A%2F%2Fwww.NineNeins.com"></a>![Discord](https://img.shields.io/discord/716347055907405845?style=for-the-badge)<a href="https://www.NineNeins.com" target="_Website"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/9NeinsG/NineNeins.com?style=for-the-badge"></a></br>
