@@ -30,7 +30,7 @@ var ETH_LOGGED_IN = "You are now Signed In. :)"
 // set a message to show when MetaMask is NOT Logged In.
 var ETH_NOT_LOGGED_IN = "Download and log into MetaMak via Brave to access all of Nine-Neins dont wry it is all still free. :)"
 var isWeb3Available = false; 
-
+var ethereum.autoRefreshOnNetworkChange = false;
 //Click Function Start
 
 function onEthTipButtonClick() {
