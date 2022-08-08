@@ -1,0 +1,116 @@
+<!-- Production Navigation -->
+<div class="container-fluid">
+    <!-- Logo and responsive toggle -->
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="https://www.NineNein.com">
+            <span class="glyphicon glyphicon-fire"></span> 
+            9-Neins
+        </a>
+    </div>
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="navbar">
+        <ul class="nav navbar-nav navbar-right">
+            <li class="active">
+            <!--<a href="https://www.ninenein.com/NN-Online">NN-Online</a>-->
+            </li>
+            
+            <li>
+            <ul class="nav navbar-nav">
+                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown dropdown-submenu"><a href="#" class="dropdown-toggle" data-toggle="dropdown">NatSoc Blog</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="https://www.ninenein.com/books">Books</a></li>
+                                <li><a href="https://www.ninenein.com/saints">Saint</a></li>
+                                <li><a href="https://christogenea.org/" target="_blank">Christianity</a></li>
+                                <li><a href="https://www.ninenein.com/video">Video</a></li>
+                                <li><a href="https://www.ninenein.com/music">Music</a></li>
+                                <li><a href="https://www.ninenein.com/arcade">Games</a></li>
+                                <li role="separator" class="divider"></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown dropdown-submenu"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Grey's Blog</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="https://www.ninenein.com/blog">Main</a></li>
+                                <li><a href="https://www.ninenein.com/B-Topic/GreyingErrorBlog">GreyingError</a></li>
+                                <li role="separator" class="divider"></li>
+                            </ul>
+                        </li>
+                        <li role="separator" class="divider"></li>
+                    </ul>
+                </li>
+            </ul>
+            </li>
+
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact <span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="about">
+                    <li><p>Social Media</p></li>
+                    <li><a href="https://gab.com/GreyingError" target="_blank">Gab</a></li>
+                    <li><a href="//bitchute.com/" target="_blank">BitChute</a></li>
+                    <li><a href="https://www.minds.com/greyingerror9" target="_blank">Minds</a></li>
+                    <!--
+                    <p>Support Us</p>
+                    <li><a href="https://ninenein.com/FashShop/InGame/powerlevel">Contribute</a></li></br>
+                    <p>Help</p>
+                    <li><a href="">FAQ</a></li>-->
+                </ul>
+            </li>
+
+            <li class="dropdown">
+                <form>
+                <input type="text" id="search" placeholder="Search NineNeins..."></form>
+
+                <div id="template" class="topic-card">
+                    <div class="topic-image topic-link">
+                        <img src="">
+                    </div>
+                <div class="topic-info">
+                    <h1 class="name"></h1>
+                    <h1 class="link"></h1>
+                </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+</div>
+<section class="topics"></section>
+<!-- End Production Navigation -->
+
+<script>
+//NineNeins Search
+$(function() {
+    $("#search").on("keyup", function() {
+        $(".topics").html("");
+            var val = $.trim(this.value)
+    if (val) {
+        val = val.toLowerCase();
+        $.each(topicsArray, function(_,obj) {
+       // console.log(val,obj.name.toLowerCase().indexOf(val),obj)
+            if (obj.name.toLowerCase().indexOf(val) != -1) {
+                $(".topics").append('<div class="topic-card"><span class="topic-info">'+obj.name+'</span><br/><a class="topic-link" href="'+obj.link+'"><img class="topic-image topic-link" src="'+obj.image+'"></a></div>');
+            }
+        });
+    }
+    $(".not-found").toggle($(".topics").find("img").length==0);
+    });
+});
+
+//NavDrop Custom
+$(document).ready(function () {
+    $('ul.dropdown-menu [data-toggle=dropdown]').on('click', function (event) {
+        event.preventDefault();
+        event.stopPropagation();
+        $(this).parent().siblings().removeClass('open');
+        $(this).parent().toggleClass('open');
+    });
+});
+
+</script>

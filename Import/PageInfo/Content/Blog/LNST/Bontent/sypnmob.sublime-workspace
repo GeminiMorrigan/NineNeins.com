@@ -1,0 +1,672 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"center",
+				"center"
+			],
+			[
+				"ls-LNSTS",
+				"ls-LNSTSeasons"
+			],
+			[
+				"bibl",
+				"bible-content"
+			],
+			[
+				"syn",
+				"synopsis"
+			],
+			[
+				"NST-S",
+				"NST-Swatsi-Hyrule.png\tw:200 h:120"
+			],
+			[
+				"S",
+				"Sypnosis/"
+			],
+			[
+				"ali",
+				"align-content\tproperty"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"padding-ri",
+				"padding-right"
+			],
+			[
+				"paddin",
+				"padding-top\tproperty"
+			],
+			[
+				"div",
+				"div\tTag"
+			],
+			[
+				"ver",
+				"vertical-align\tproperty"
+			],
+			[
+				"padding",
+				"padding-right\tproperty"
+			],
+			[
+				"paddi",
+				"padding-left\tproperty"
+			],
+			[
+				"backgrou",
+				"background-color\tproperty"
+			],
+			[
+				"scr",
+				"screen"
+			],
+			[
+				"Zo",
+				"Zoras-Ritos"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"br",
+				"br"
+			],
+			[
+				"Pad",
+				"padding-top\tproperty"
+			],
+			[
+				"Time",
+				"TimeLine"
+			],
+			[
+				"I",
+				"Import/"
+			],
+			[
+				"as",
+				"async"
+			],
+			[
+				"aync",
+				"async"
+			],
+			[
+				"t",
+				"table"
+			],
+			[
+				"tab",
+				"table\tTag"
+			],
+			[
+				"Paf",
+				"PageInfo/"
+			],
+			[
+				"bm-T",
+				"bm-TIJ"
+			],
+			[
+				"D-",
+				"D-Saint"
+			],
+			[
+				"md-P",
+				"md-POW"
+			],
+			[
+				"md-",
+				"md-LN"
+			],
+			[
+				"md",
+				"md-LN"
+			],
+			[
+				"img",
+				"img"
+			],
+			[
+				"cont-",
+				"cont-Gab"
+			],
+			[
+				"page-",
+				"page-footer-cont"
+			],
+			[
+				"c",
+				"center\tTag"
+			],
+			[
+				"item-",
+				"item-Gab"
+			],
+			[
+				"pro",
+				"promo-item"
+			],
+			[
+				"C",
+				"Contact"
+			],
+			[
+				"M",
+				"Movie"
+			],
+			[
+				"shop",
+				"shopm"
+			],
+			[
+				"sm",
+				"sm-Pete"
+			],
+			[
+				"am",
+				"am-AG2"
+			],
+			[
+				"am-",
+				"am-AG"
+			],
+			[
+				"B",
+				"Blog"
+			],
+			[
+				"vm",
+				"vm-HSTO"
+			],
+			[
+				"url",
+				"url()\tbackground"
+			],
+			[
+				"sa",
+				"saintm"
+			],
+			[
+				"Mo",
+				"Mobile"
+			],
+			[
+				"sd-",
+				"sd-Kacz"
+			],
+			[
+				"sd-B",
+				"sd-Breivik"
+			],
+			[
+				"im",
+				"img\tTag"
+			],
+			[
+				"over",
+				"overflow-y"
+			],
+			[
+				"overflow",
+				"overflow-auto"
+			],
+			[
+				"html",
+				"html"
+			],
+			[
+				"text",
+				"text-muted"
+			],
+			[
+				"lea",
+				"lead"
+			],
+			[
+				"NNT",
+				"NNThon"
+			],
+			[
+				"inventory",
+				"inventory"
+			],
+			[
+				"pause",
+				"renpy.pause"
+			],
+			[
+				"ite",
+				"Item"
+			],
+			[
+				"add",
+				"add"
+			],
+			[
+				"i",
+				"inc\tinclude (inc)"
+			],
+			[
+				"d",
+				"data-id"
+			],
+			[
+				"pad",
+				"padding-top\tproperty"
+			],
+			[
+				"margin-",
+				"margin-left\tproperty"
+			],
+			[
+				"neinstore",
+				"neinsstore"
+			],
+			[
+				"itemstor",
+				"Item_Store"
+			],
+			[
+				"show",
+				"show"
+			],
+			[
+				"items",
+				"itemstore_screen"
+			],
+			[
+				"first",
+				"first_pant"
+			],
+			[
+				"selected",
+				"selected_item"
+			],
+			[
+				"eq",
+				"Equiped"
+			],
+			[
+				"dat",
+				"datetime"
+			],
+			[
+				"P",
+				"PasswordField"
+			],
+			[
+				"Pa",
+				"password"
+			],
+			[
+				"v",
+				"validators"
+			],
+			[
+				"E",
+				"Email"
+			],
+			[
+				"p",
+				"public_id"
+			],
+			[
+				"use",
+				"user_data"
+			],
+			[
+				"password",
+				"password"
+			],
+			[
+				"__",
+				"__name__"
+			],
+			[
+				"b",
+				"Boolean"
+			],
+			[
+				"G",
+				"G9W_API"
+			],
+			[
+				"get",
+				"gettimeline"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"pretty",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"Install Package",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"install package",
+				"Package Control: Install Package"
+			],
+			[
+				"b",
+				"Build: Cancel"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 202.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Greg/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/C/Users/Greg/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/C/Users/Greg/AppData/Roaming/Sublime Text 3/Packages/Browser Sync/node_modules/browser-sync/package.json",
+		"/C/Users/Greg/AppData/Roaming/Sublime Text 3/Packages/Browser Sync/browser_sync.py",
+		"/C/wamp64/www/NewWebsite/Import/PageInfo/Content/Blog/greyingmob.html",
+		"/C/wamp64/www/NewWebsite/Import/PageInfo/Content/Blog/LNST/Bontent/sypnmob.html",
+		"/C/wamp64/www/NewWebsite/Import/PageInfo/Content/Blog/LNST/Bontent/racemob.html",
+		"/C/wamp64/www/NewWebsite/Import/PageInfo/Content/Blog/LNST/Bontent/timelinemob.html",
+		"/C/wamp64/www/NewWebsite/Import/PageInfo/Content/Blog/LNST/Bontent/religionmob.html",
+		"/C/wamp64/www/NewWebsite/Import/PageInfo/Content/Blog/LNST/Bontent/triforcemob.html",
+		"/C/wamp64/www/NewWebsite/Import/PageInfo/Content/Blog/LNST/Bontent/shieldmob.html",
+		"/C/wamp64/www/NewWebsite/B-Topic/GreyingError/LNST/Race.html",
+		"/C/wamp64/www/NewWebsite/B-Topic/GreyingError/LNST/Shield.html",
+		"/C/wamp64/www/NewWebsite/B-Topic/GreyingError/LNST/Religion.html",
+		"/C/wamp64/www/NewWebsite/B-Topic/GreyingError/LNST/TimeLine.html",
+		"/C/wamp64/www/NewWebsite/B-Topic/GreyingError/LNST/TriForce.html",
+		"/C/wamp64/www/NewWebsite/B-Topic/GreyingError/LNST/Synopsis.html",
+		"/C/wamp64/www/NewWebsite/Import/PageInfo/Content/Blog/LNST/Bontent/timlinemob.html",
+		"/C/wamp64/www/blogtest/cooming-soon.html",
+		"/C/Users/Greg/Desktop/so/Sofi91 (2019-08-28 to 2019-10-20).html",
+		"/C/Users/Greg/Desktop/Status _ Gab Social.html",
+		"/C/Users/Greg/Desktop/brave-rewards-verification.txt",
+		"/C/wamp64/www/NewWebsite/Import/PageInfo/Content/Blog/LNST/Intro/sypnlnstintro.html",
+		"/C/wamp64/www/NewWebsite/Import/PageInfo/Content/Blog/LNST/Navigation/lnstnav.html",
+		"/C/wamp64/www/NewWebsite/Import/PageInfo/Content/Blog/LNST/Navigation/greyblognav.html",
+		"/C/Users/Greg/AppData/Roaming/Sublime Text 3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/C/wamp64/www/NewWebsite/Frame/Zbuild/Bootstrap/dist/css/bootstrap.css",
+		"/C/Users/Greg/AppData/Roaming/Sublime Text 3/Packages/Color Highlighter/ColorHighlighter.sublime-settings",
+		"/C/wamp64/www/NewWebsite/Import/PageInfo/Content/Blog/LNST/Intro/raceintro.html",
+		"/C/wamp64/www/9BLOG/LNST/Triforce/LNST - The Triforce.html",
+		"/C/Users/Greg/Desktop/NST-Swatsi-Hyrule.svg",
+		"/C/wamp64/www/NewWebsite/Frame/Zbuild/Bootstrap/dist/css/bootstrap.css.map",
+		"/C/wamp64/www/9BLOG/LNST/Timeline/LNST - TimeLine.html",
+		"/C/wamp64/www/NewWebsite/B-Topic/FaqBlog.html",
+		"/C/wamp64/www/NewWebsite/Import/PageInfo/Content/Blog/faqmob.html",
+		"/C/wamp64/www/9BLOG/LNST/Race/LNST - Race.html",
+		"/C/wamp64/www/NewWebsite/B-Topic/GreyingErrorBlog.html",
+		"/C/wamp64/www/NewWebsite/Import/PageInfo/ReadMore/saintinfowrap.html",
+		"/C/wamp64/www/NewWebsite/Import/PageInfo/Content/Books/Saints/saintmob.html",
+		"/C/wamp64/www/NewWebsite/index.html",
+		"/C/Users/Greg/Desktop/New folder (5)/chamb/index.html",
+		"/C/Users/Greg/Desktop/New folder (5)/chamb/css/style.css",
+		"/C/Users/Greg/Desktop/New folder (5)/chamb/css/responsive.css",
+		"/C/Users/Greg/Desktop/New folder (5)/chamb/css/bootstrap-select.min.css",
+		"/C/Users/Greg/Desktop/New folder (5)/chamb/css/bootstrap.min.css",
+		"/C/Users/Greg/Desktop/New folder (5)/chamb/css/animate-wow.css",
+		"/C/wamp64/www/NewWebsite/Import/PageInfo/Navigation/mainnav.html",
+		"/C/wamp64/www/NewWebsite/Import/PageInfo/Navigation/blogfoot.html",
+		"/C/wamp64/www/NewWebsite/Import/PageInfo/Intro/homeintro.html",
+		"/C/wamp64/www/NewWebsite/B-Topic/GreyingError/Inspiration.html",
+		"/C/wamp64/www/NewWebsite/B-Topic/NineNeinsBlog.html",
+		"/C/wamp64/www/NewWebsite/books.html",
+		"/C/wamp64/www/NewWebsite/shop.html",
+		"/C/wamp64/www/NewWebsite/arcade.html",
+		"/C/wamp64/www/NewWebsite/blog.html",
+		"/C/wamp64/www/NewWebsite/music.html",
+		"/C/wamp64/www/NewWebsite/video.html",
+		"/C/wamp64/www/NewWebsite/saints.html",
+		"/C/wamp64/www/NewWebsite/Frame/JS/MainPageDev.js",
+		"/C/wamp64/www/NewWebsite/Import/PageInfo/Content/Blog/blogmob.html",
+		"/C/wamp64/www/NewWebsite/Import/PageInfo/Content/Blog/LNST/Intro/timlineintro.html",
+		"/C/wamp64/www/NewWebsite/Import/PageInfo/Content/Blog/LNST/Intro/shieldintro.html",
+		"/C/wamp64/www/NewWebsite/Import/PageInfo/Content/Blog/LNST/Intro/religionintro.html",
+		"/C/wamp64/www/NewWebsite/Import/PageInfo/Content/Blog/LNST/Intro/triforceintro.html",
+		"/C/wamp64/www/NewWebsite/Import/PageInfo/Content/Blog/nineneinmob.html",
+		"/C/wamp64/www/NewWebsite/Import/PageInfo/Intro/blogintro.html",
+		"/C/wamp64/www/NewWebsite/Frame/JS/MainPageBlogExt.js",
+		"/C/wamp64/www/NewWebsite/Import/PageInfo/Intro/nineneinintro.html",
+		"/C/wamp64/www/NewWebsite/Import/PageInfo/Intro/faqintro.html",
+		"/C/wamp64/www/NewWebsite/Import/PageInfo/Intro/greyingintro.html",
+		"/C/wamp64/www/NewWebsite/Import/PageInfo/Content/Blog/LSNT/Intro/sypnlnstintro.html",
+		"/C/wamp64/www/NewWebsite/Import/PageInfo/Content/Blog/LSNT/Bontent/sypnmob.html",
+		"/C/wamp64/www/NewWebsite/Import/PageInfo/Content/Blog/LSNT.html",
+		"/C/wamp64/www/NewWebsite/blogland.html",
+		"/C/wamp64/www/blogtest/index.html",
+		"/C/wamp64/www/NewWebsite/B-Topic/inspiration.html",
+		"/C/wamp64/www/blogtest/css/style.css",
+		"/C/wamp64/www/NewWebsite/Import/PageInfo/Intro/videointro.html",
+		"/C/Users/Greg/Desktop/New folder (5)/chamb/js/index.js",
+		"/C/wamp64/www/NewWebsite/FashShop/Content/powerldes.html",
+		"/C/wamp64/www/NewWebsite/Frame/JS/9out.js",
+		"/C/wamp64/www/NewWebsite/Import/PageInfo/Content/Home/homemobdes.html",
+		"/C/wamp64/www/NewWebsite/FashShop/powerlevel.html",
+		"/C/wamp64/www/NewWebsite/Import/PageInfo/Content/Shop/shopmob.html",
+		"/C/Users/Greg/Desktop/9NeinsOnline/Text/IMPTEX/Backup/ImportantBU.txt",
+		"/C/wamp64/www/NewWebsite/B-Topic/index.html",
+		"/C/wamp64/www/NewWebsite/Import/PageInfo/Content/Books/bookmob.html",
+		"/C/wamp64/www/NewWebsite/Import/PageInfo/Content/Books/bookdes.html",
+		"/C/wamp64/www/NewWebsite/FashShop/ReadMore/cryptoinfowrap.html",
+		"/C/wamp64/www/NewWebsite/FashShop/Content/powerlmob.html",
+		"/C/wamp64/www/NewWebsite/FashShop/Intro/powerintro.html",
+		"/C/wamp64/www/NewWebsite/Import/PageInfo/Content/Movie/movmob.html",
+		"/C/wamp64/www/NewWebsite/Import/PageInfo/Content/Movie/movdes.html",
+		"/C/wamp64/www/NewWebsite/Import/PageInfo/Navigation/mainfoot.html",
+		"/C/wamp64/www/NewWebsite/Import/PageInfo/FeatSpon/mainspon.html",
+		"/C/wamp64/www/NewWebsite/Import/PageInfo/ReadMore/movieinfowrap.html",
+		"/C/wamp64/www/NewWebsite/Import/PageInfo/Intro/movieintro.html",
+		"/C/wamp64/www/NewWebsite/Import/PageInfo/ReadMore/shopinfowrap.html",
+		"/C/wamp64/www/NewWebsite/Import/PageInfo/Header/shopheader.html",
+		"/C/wamp64/www/NewWebsite/Import/PageInfo/Intro/shopintro.html",
+		"/C/wamp64/www/NewWebsite/Import/PageInfo/ReadMore/arcadeinfowrap.html",
+		"/C/wamp64/www/NewWebsite/Import/PageInfo/Content/Arcade/arcademob.html",
+		"/C/wamp64/www/NewWebsite/Import/PageInfo/Intro/musicintro.html",
+		"/C/wamp64/www/NewWebsite/Import/PageInfo/ReadMore/bloginfowrap.html",
+		"/C/wamp64/www/NewWebsite/Import/PageInfo/Content/Video/videomobdes.html",
+		"/C/Users/Greg/Desktop/9NeinsOnline/Bots/BitChuteYouTube/YouBitVidEmbed-JS.js",
+		"/C/Users/Greg/Desktop/9NeinsOnline/Bots/BitChuteYouTube/attemptnew.html",
+		"/C/Users/Greg/Desktop/9NeinsOnline/Bots/BitChuteYouTube/YouBitVidEmbed-CSS.css",
+		"/C/wamp64/www/NewWebsite/Import/PageInfo/Content/Music/musicmob.html",
+		"/C/wamp64/www/NewWebsite/Import/PageInfo/Content/Books/Saints/saintdes.html",
+		"/C/wamp64/www/NewWebsite/Import/PageInfo/FeatSpon/chanvid.html",
+		"/C/wamp64/www/NewWebsite/Import/PageInfo/Header/header.html",
+		"/C/wamp64/www/NewWebsite/Import/PageInfo/ReadMore/videoinfowrap.html",
+		"/C/wamp64/www/NineNeinsMobile/video.html",
+		"/C/wamp64/www/NewWebsite/Import/PageInfo/ReadMore/homeinfowrap.html",
+		"/C/wamp64/www/NewWebsite/Import/PageInfo/ReadMore/bookinfowrap.html",
+		"/C/wamp64/www/NineNeinsMobile/js/Functions/script/MainPage.js",
+		"/C/wamp64/www/NewWebsite/Frame/CSS/MainPage.css",
+		"/C/wamp64/www/NewWebsite/Import/PageInfo/ReadMore/gameinfowrap.html",
+		"/C/wamp64/www/NewWebsite/Import/PageInfo/Content/Movie/moviedes.html",
+		"/C/wamp64/www/NewWebsite/Import/PageInfo/Content/Games/gamemob.html",
+		"/C/wamp64/www/NewWebsite/Import/PageInfo/ReadMore/cryptoinfowrap.html",
+		"/C/wamp64/www/NewWebsite/Import/PageInfo/ReadMore/musicinfowrap.html",
+		"/C/wamp64/www/NewWebsite/Import/Intro/saintintro.html",
+		"/C/wamp64/www/NewWebsite/Import/Intro/musicintro.html",
+		"/C/wamp64/www/NewWebsite/Import/Intro/gameintro.html",
+		"/C/wamp64/www/NineNeinsMobile/js/Functions/css/custom.css",
+		"/C/wamp64/www/NewWebsite/Import/Intro/bookintro.html"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 104.8,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 103.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Python 3/Python3.sublime-build",
+	"project": "sypnmob.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"pretty",
+				"Bots\\9Nose\\node_modules\\logform\\dist\\pretty-print.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 592.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 270.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

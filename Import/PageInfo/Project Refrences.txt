@@ -1,0 +1,16 @@
+CSS Images
+
+/******LNST BLOG
+ls(Sypnosis) - lr(Race) - ll(Shield) - tl(Timeline) - lf(Triforce) - lc(Religion)
+
+/******Books BLOG
+bm(mobile) - bd(desktop)
+
+/******Saints BLOG
+sm(mobile) - sd(desktop)
+
+/******Moviez BLOG
+md(mobile) - md(desktop)
+
+/******Mobile Only Blogs
+mm(music) - am(Arcade) - vm(Video) - sm(Shop)*/

@@ -1,0 +1,77 @@
+<style>
+
+@media only screen and (max-width: 600px) {
+ .hide-mobile 
+ {display:none;}
+}
+	
+</style>
+
+<div class="ibwrapper hide-mobile">
+	<section id="section1"> 
+		<a href="#section3" onclick="keepLocation(window.pageYOffset);" class="arrow__btn">‹</a>
+
+		<div class="item bd-CBE" target="popup" onclick="window.open('Books/A_History_of_Central_Banking.pdf#toolbar=1&navpanes=1&scrollbar=1','popup','width=600,height=600'); return false;"> 
+		</div>
+		<div class="item bd-COC" target="popup" onclick="window.open('Books/The_Culture_Critique.pdf#toolbar=1&navpanes=1&scrollbar=1','popup','width=600,height=600'); return false;"> 
+		</div>
+		<div class="item bd-MK" target="popup" onclick="window.open('Books/Mein_Kampf_Dalton.pdf#toolbar=1&navpanes=1&scrollbar=1','popup','width=600,height=600'); return false;"> 
+		</div>
+		<div class="item bd-TTTW" target="popup" onclick="window.open('Books/This_Time_The_World-Rockwell.pdf#toolbar=1&navpanes=1&scrollbar=1','popup','width=600,height=600'); return false;"> 
+		</div>
+		<div class="item bd-TIJ" target="popup" onclick="window.open('Books/HenryFord-International_Jew.pdf#toolbar=1&navpanes=1&scrollbar=1','popup','width=600,height=600'); return false;"> 
+		</div> 
+
+		<a href="#section2" onclick="keepLocation(window.pageYOffset);" class="arrow__btn">›</a>
+	</section>
+  
+    <section id="section2"> 
+	  	<a href="#section1" onclick="keepLocation(window.pageYOffset);" class="arrow__btn">‹</a>
+
+		<div class="item bd-WP" target="popup" onclick="window.open('Books/White_Power_Rockwell.pdf#toolbar=1&navpanes=1&scrollbar=1','popup','width=600,height=600'); return false;"> 
+		</div>
+		<div class="item bd-HS" target="popup" onclick="window.open('Books/Hellstorm-Thomas_Goodrich.pdf#toolbar=1&navpanes=1&scrollbar=1','popup','width=600,height=600'); return false;"> 
+		</div>
+		<div class="item bd-TTD" target="popup" onclick="window.open('Books/Turner_Diaries.pdf#toolbar=1&navpanes=1&scrollbar=1','popup','width=600,height=600'); return false;"> 
+		</div>
+		<div class="item bd-WWWM" target="popup" onclick="window.open('Books/Which_Way_Western_Man.pdf#toolbar=1&navpanes=1&scrollbar=1','popup','width=600,height=600'); return false;"> 
+		</div>
+		<div class="item bd-WEA" target="popup" onclick="window.open('Books/Pierce-Who_We_Are.pdf#toolbar=1&navpanes=1&scrollbar=1','popup','width=600,height=600'); return false;"> 
+		</div> 
+
+		<a href="#section3" onclick="keepLocation(window.pageYOffset);" class="arrow__btn ">›</a>
+    </section>
+  
+    <section id="section3"> 
+	  	<a href="#section2" onclick="keepLocation(window.pageYOffset);" class="arrow__btn">‹</a>
+
+		<div class="item bd-ATR" target="popup" onclick="window.open('Books/Kaczynski_Anti-Tech_Rev_WH.pdf#toolbar=1&navpanes=1&scrollbar=0','popup','width=600,height=600'); return false;"> 
+		</div> 
+		<div class="item bd-TJRS" target="popup" onclick="window.open('Books/Jones_Jew_Rev_Spirit.pdf#toolbar=1&navpanes=1&scrollbar=1','popup','width=600,height=600'); return false;">
+		</div>    
+		<div class="item bd-JMS" target="popup" onclick="window.open('Books/Siege-James_Mason.pdf#toolbar=1&navpanes=1&scrollbar=1','popup','width=600,height=600'); return false;"> 
+		</div>  
+		<div class="item bd-WBRW" target="popup" onclick="window.open('Books/Where-Black-Rules-White.pdf#toolbar=1&navpanes=1&scrollbar=1','popup','width=600,height=600'); return false;"> 
+		</div>    
+		<div class="item bd-TWL" target="popup" onclick="window.open('Books/Mosley-Tomorrow_We_Live.pdf#toolbar=1&navpanes=1&scrollbar=1','popup','width=600,height=600'); return false;"> 
+		</div> 
+	
+		<a href="#section1" onclick="keepLocation(window.pageYOffset);" class="arrow__btn">›</a>
+    </section>
+</div>  
+
+
+
+<script language="JavaScript" type="text/javascript">
+
+function keepLocation(oldOffset) {
+  if (window.pageYOffset!= null){
+	st=oldOffset;
+  }
+  if (document.body.scrollWidth!= null){
+	st=oldOffset;
+  }
+  setTimeout('window.scrollTo(0,st)',10);
+}
+
+</script>
