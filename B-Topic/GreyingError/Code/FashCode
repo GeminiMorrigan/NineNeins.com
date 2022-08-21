@@ -20,16 +20,18 @@
     <header id="sitehead"></header>
 
     <!--Intro -->
-    <section id="Tcryptosi"></section>
+    <section id="fashcodei"></section>
 
-    <main class="container">
+    <!-- Blog Content -->
+    <main class="container-fluid">
         <article class="row">
-            <section class="col-md-9 col-lg-9">
+            <section class="col-xl-8 col-lg-8 col-md-10 col-sm-10 m-15px-tb">
 
                 <main id="softom"></main>
 
             </section>
 
+    <!-- Body Close -->
         </article>
     </main>
 
@@ -42,7 +44,7 @@
     <!-- Footer -->
     <footer id="BEfooty"></footer>
 
-    <script src="../../Frame/JS/MainPageBlogExt.js" async></script>
+    <script src="../../../Frame/JS/MainPageBlogExt.js" async></script>
         
     </body>
 </html>
