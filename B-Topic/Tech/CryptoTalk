@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>FAQ : CryptoTalk</title>
+    <style type="text/css"> @import url("../../../Frame/CSS/MainPage.css");</style>
+
+</head>
+
+<body>
+    
+    <!-- Navigation -->
+    <nav id="BEsiteNav" class="navbar navbar-default navbar-fixed-top" role="navigation"></nav>
+
+    <!-- Header -->
+    <header id="sitehead"></header>
+
+    <!--Intro -->
+    <section id="Tcryptoi"></section>
+
+    <!-- Blog Content -->
+    <main class="container-fluid">
+        <article class="row">
+            <section class="col-xl-8 col-lg-8 col-md-10 col-sm-10 m-15px-tb">
+
+                <main id="cryptom"></main>
+
+            </section>
+
+    <!-- Body Close -->
+        </article>
+    </main>
+
+    <!-- Footer -->
+    <footer id="BEfooty"></footer>
+
+    <script src="../../../Frame/JS/MainPageBlogExt.js" async></script>
+        
+    </body>
+</html>
