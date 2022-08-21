@@ -38,6 +38,12 @@ $('#siteNav').affix({
     }
 });
 
+$('#FSsiteNav').affix({
+    offset: {
+        top: 100
+    }
+});
+
 //Mobile Nav
 $(document).on('click','.navbar-collapse.in',function(e) {
     if( $(e.target).is('a') ) {
@@ -52,12 +58,13 @@ $(document).ready(function(){
     //Site
     $('#siteNav').load("./Import/PageInfo/Navigation/mainnav.html");
     $('#footy').load("./Import/PageInfo/Navigation/mainfoot.html");
+    //Fashshop
+    $('#FSsiteNav').load("../../Import/PageInfo/Navigation/mainnav.html");
+    $('#FSfooty').load("../../Import/PageInfo/Navigation/mainfoot.html");
 
 //**Header**
     //Site
     $('#sitehead').load("./Import/PageInfo/Header/header.html");
-    //Shop
-    $('#shophead').load("./Import/PageInfo/Header/shopheader.html"); 
 
 //**Intros**
     //Home
@@ -74,43 +81,9 @@ $(document).ready(function(){
     $('#videoi').load("./Import/PageInfo/Intro/videointro.html");
     //Blog
     $('#blogi').load("./Import/PageInfo/Intro/blogintro.html");
-    //Blog
+    //Shop
     $('#shopi').load("./Import/PageInfo/Intro/shopintro.html");
     //$('#cryptoco').load("./Functions/cryptocheckout.html");
-
-//**Featured 3**
-    $('#patch').load("./Import/PageInfo/FeatSpon/mainspon.html");
-    $('#featv').load("./Import/PageInfo/FeatSpon/chanvid.html");
-
-//**HomePage**
-    $('#home-md').load("./Import/PageInfo/Content/Home/homemobdes.html");
-    //Video 
-    $('#vid-md').load("./Import/PageInfo/Content/Video/videomobdes.html");
-
-//**Scrollers**
-    //**Desktop**
-    //Books
-    $('#book-d').load("./Import/PageInfo/Content/Books/bookdes.html");
-    //Saints
-    $('#saint-d').load("./Import/PageInfo/Content/Books/Saints/saintdes.html");
-    //Music
-    $('#music-d').load("./Import/PageInfo/Content/Music/musicdes.html");
-    //Games
-    $('#arcade-d').load("./Import/PageInfo/Content/Arcade/gamedes.html");
-
-    //**Mobile**
-    //Books
-    $('#book-m').load("./Import/PageInfo/Content/Books/bookmob.html");
-    //Saints
-    $('#saint-m').load("./Import/PageInfo/Content/Books/Saints/saintmob.html");   
-    //Music
-    $('#music-m').load("./Import/PageInfo/Content/Music/musicmob.html");
-    //Games
-    $('#arcade-m').load("./Import/PageInfo/Content/Arcade/arcademob.html");
-    //Blog
-    $('#blog-m').load("./Import/PageInfo/Content/Blog/blogmob.html");
-    //Shop
-    $('#shop-m').load("./Import/PageInfo/Content/Shop/shopmob.html");
 
 //**ReadMore**
     //Home
@@ -127,10 +100,45 @@ $(document).ready(function(){
     $('#videow').load("./Import/PageInfo/ReadMore/videoinfowrap.html");
     //Blog
     $('#blogw').load("./Import/PageInfo/ReadMore/bloginfowrap.html");
-    //Blog
+    //Shop
     $('#shopw').load("./Import/PageInfo/ReadMore/shopinfowrap.html");
     //$('#cryptoco').load("./Functions/cryptocheckout.html");
-    
+
+//**Featured 3**
+    $('#patch').load("./Import/PageInfo/FeatSpon/mainspon.html");
+    $('#featv').load("./Import/PageInfo/FeatSpon/chanvid.html");
+
+//**Content**
+  //**Mobile**
+    //HomePage
+    $('#home-md').load("./Import/PageInfo/Content/Home/homemobdes.html");
+    //Books
+    $('#book-m').load("./Import/PageInfo/Content/Books/bookmob.html");
+    //Saints
+    $('#saint-m').load("./Import/PageInfo/Content/Books/Saints/saintmob.html");   
+    //Music
+    $('#music-m').load("./Import/PageInfo/Content/Music/musicmob.html");
+    //Games
+    $('#arcade-m').load("./Import/PageInfo/Content/Arcade/arcademob.html");
+    //Video 
+    $('#vid-md').load("./Import/PageInfo/Content/Video/videomobdes.html");
+    //Blog
+    $('#blog-m').load("./Import/PageInfo/Content/Blog/blogmob.html");
+    //Shop
+    $('#shop-m').load("./Import/PageInfo/Content/Shop/shopmob.html");
+
+    //**Desktop Scroller**
+        //Books
+        $('#book-d').load("./Import/PageInfo/Content/Books/bookdes.html");
+        //Saints
+        $('#saint-d').load("./Import/PageInfo/Content/Books/Saints/saintdes.html");
+        //Music
+        $('#music-d').load("./Import/PageInfo/Content/Music/musicdes.html");
+        //Games
+        $('#arcade-d').load("./Import/PageInfo/Content/Arcade/gamedes.html");
+        //Shop
+        $('#shop-d').load("./Import/PageInfo/Content/Shop/shopdes.html");
+
 //**Shop**
     //Intro
     $('#pli').load("./../FashShop/Intro/powerintro.html");
