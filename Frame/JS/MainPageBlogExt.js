@@ -37,6 +37,12 @@ $('#BEsiteNav').affix({
     }
 });
 
+$('#BlnstsiteNav').affix({
+    offset: {
+        top: 100
+    }
+});
+
 //Mobile Nav
 $(document).on('click','.navbar-collapse.in',function(e) {
     if( $(e.target).is('a') ) {
@@ -44,56 +50,70 @@ $(document).on('click','.navbar-collapse.in',function(e) {
     }
 });
 
-//Blog Extended Importer
+//Importer
 $(document).ready(function(){
-//**Extended BLOG TOPICS*
+
 //Nav
     $('#BEsiteNav').load("./../../../Import/PageInfo/Navigation/mainnav.html");
     $('#BEfooty').load("./../../../Import/PageInfo/Navigation/mainfoot.html");
+    $('#BlnstsiteNav').load("./../../../Import/PageInfo/Content/Blog/LNST/Navigation/mainnav-LNST.html");
 
 //LNST SideBar
     $('#LNSTSideBar').load("../../../Import/PageInfo/Content/Blog/LNST/Navigation/lnstnav.html");
-//Greying Error
-//Link NatSoc Theory
-//Intro
-    //Sypnosis
-    $('#syplnsti').load("./../../../Import/PageInfo/Content/Blog/LNST/Intro/sypnlnstintro.html");
-    //Shield
-    $('#shilnsti').load("./../../../Import/PageInfo/Content/Blog/LNST/Intro/shieldintro.html");
-    //TimeLine
-    $('#timelnsti').load("./../../../Import/PageInfo/Content/Blog/LNST/Intro/timelineintro.html");
-    //Triforce
-    $('#triflnsti').load("./../../../Import/PageInfo/Content/Blog/LNST/Intro/triforceintro.html");
-    //Race
-    $('#raclnsti').load("./../../../Import/PageInfo/Content/Blog/LNST/Intro/raceintro.html");
-    //Religion
-    $('#relilnsti').load("./../../../Import/PageInfo/Content/Blog/LNST/Intro/religionintro.html");
 
-//Mobile
-    //Sypnosis
-    $('#syplnstm').load("./../../../Import/PageInfo/Content/Blog/LNST/Bontent/sypnmob.html");
-    //Shield
-    $('#shielnstm').load("./../../../Import/PageInfo/Content/Blog/LNST/Bontent/shieldmob.html");
-    //TimeLine
-    $('#timelnstm').load("./../../../Import/PageInfo/Content/Blog/LNST/Bontent/timelinemob.html");
-    //Triforce
-    $('#triflnstm').load("./../../../Import/PageInfo/Content/Blog/LNST/Bontent/triforcemob.html");
-    //Race
-    $('#racilnstm').load("./../../../Import/PageInfo/Content/Blog/LNST/Bontent/racemob.html");
-    //Religion
-    $('#relilnstm').load("./../../../Import/PageInfo/Content/Blog/LNST/Bontent/religionmob.html");
+//**Header**
+    //Site
+    $('#sitehead').load("../../../Import/PageInfo/Header/header.html");
 
 //Tech
-//Intro
-    //CryptoTalk
-    $('#Tcryptoi').load("./../../../Import/PageInfo/Content/Blog/TECH/Intro/cryptotechintro.html");
-    $('#Tcryptosi').load("./../../../Import/PageInfo/Content/Blog/TECH/Intro/cryptosoftintro.html");
-//Mobile
-    $('#cryptom').load("./../../../Import/PageInfo/Content/Blog/TECH/Bontent/cryptomob.html");
-    $('#softom').load("./../../../Import/PageInfo/Content/Blog/TECH/Bontent/softwaremob.html");
-    //**MobileHide-Scroll Stop**
-    $('#mhs').load("./js/Functions/hidemobilehold/hmhs.html");
-    $('#mhsb').load("../js/Functions/hidemobilehold/hmhs.html");
+    //Intro
+        //CryptoTalk
+        $('#Tcryptoi').load("./../../../Import/PageInfo/Content/Blog/TECH/Intro/cryptotechintro.html");
+        $('#Tsoftwarei').load("./../../../Import/PageInfo/Content/Blog/TECH/Intro/softwareintro.html");
+    //Content
+        $('#cryptom').load("./../../../Import/PageInfo/Content/Blog/TECH/Bontent/cryptomob.html");
+        $('#softom').load("./../../../Import/PageInfo/Content/Blog/TECH/Bontent/softwaremob.html");
+        //**MobileHide-Scroll Stop**
+        $('#mhs').load("./js/Functions/hidemobilehold/hmhs.html");
+        $('#mhsb').load("../js/Functions/hidemobilehold/hmhs.html");
+
+//Fash
+    //Intro
+        //FashCode
+        $('#fashcodei').load("./../../../Import/PageInfo/Intro/fashcodeintro.html");
+        //FashAudio
+        $('#fashaudi').load("./../../../Import/PageInfo/Intro/fashalongintro.html");
+        //FashPhoto
+        $('#fashphoi').load("./../../../Import/PageInfo/Intro/fashphotointro.html");
+
+//Link NatSoc Theory
+    //Intro 
+        //Sypnosis
+        $('#syplnsti').load("./../../../Import/PageInfo/Content/Blog/LNST/Intro/sypnlnstintro.html");
+        //Shield
+        $('#shilnsti').load("./../../../Import/PageInfo/Content/Blog/LNST/Intro/shieldintro.html");
+        //TimeLine
+        $('#timelnsti').load("./../../../Import/PageInfo/Content/Blog/LNST/Intro/timelineintro.html");
+        //Triforce
+        $('#triflnsti').load("./../../../Import/PageInfo/Content/Blog/LNST/Intro/triforceintro.html");
+        //Race
+        $('#raclnsti').load("./../../../Import/PageInfo/Content/Blog/LNST/Intro/raceintro.html");
+        //Religion
+        $('#relilnsti').load("./../../../Import/PageInfo/Content/Blog/LNST/Intro/religionintro.html");
+
+    //Content
+        //Sypnosis
+        $('#syplnstm').load("./../../../Import/PageInfo/Content/Blog/LNST/Bontent/sypnmob.html");
+        //Shield
+        $('#shielnstm').load("./../../../Import/PageInfo/Content/Blog/LNST/Bontent/shieldmob.html");
+        //TimeLine
+        $('#timelnstm').load("./../../../Import/PageInfo/Content/Blog/LNST/Bontent/timelinemob.html");
+        //Triforce
+        $('#triflnstm').load("./../../../Import/PageInfo/Content/Blog/LNST/Bontent/triforcemob.html");
+        //Race
+        $('#racilnstm').load("./../../../Import/PageInfo/Content/Blog/LNST/Bontent/racemob.html");
+        //Religion
+        $('#relilnstm').load("./../../../Import/PageInfo/Content/Blog/LNST/Bontent/religionmob.html");
 
 });
 

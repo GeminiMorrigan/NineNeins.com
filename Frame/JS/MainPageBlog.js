@@ -50,18 +50,20 @@ $(document).ready(function(){
     //Blog
     $('#BsiteNav').load("./../Import/PageInfo/Navigation/mainnav.html");
     $('#Bfooty').load("./../Import/PageInfo/Navigation/mainfoot.html");
-    //Blog Exteior
-    $('#BpsiteNav').load("./../../Import/PageInfo/Navigation/mainnav.html");
-    $('#Bpfooty').load("./../../Import/PageInfo/Navigation/mainfoot.html");
-//**Featured 3**
-    $('#Bpatch').load("./../Import/PageInfo/FeatSpon/mainspon.html");
-    $('#Bfeatv').load("./../Import/PageInfo/FeatSpon/chanvid.html");
 
-//**Main Pages**
+//**Header**
+    //Site
+    $('#sitehead').load("./../Import/PageInfo/Header/header.html"); 
+
     //Intro
     $('#nineini').load("./../Import/PageInfo/Intro/nineneinintro.html");
     $('#greyeri').load("./../Import/PageInfo/Intro/greyingintro.html");
     $('#faqblgi').load("./../Import/PageInfo/Intro/faqintro.html");
+
+//**Featured 3**
+    $('#Bpatch').load("./../Import/PageInfo/FeatSpon/mainspon.html");
+    $('#Bfeatv').load("./../Import/PageInfo/FeatSpon/chanvid.html");
+
 
 //**Greying Error**
     //** Mobile **

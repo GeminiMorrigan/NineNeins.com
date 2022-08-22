@@ -6,13 +6,13 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Code : FashCode</title>
+    <title>FAQ : CryptoTalk</title>
     <style type="text/css"> @import url("../../../Frame/CSS/MainPage.css");</style>
 
 </head>
 
 <body>
-
+    
     <!-- Navigation -->
     <nav id="BEsiteNav" class="navbar navbar-default navbar-fixed-top" role="navigation"></nav>
 
@@ -20,26 +20,20 @@
     <header id="sitehead"></header>
 
     <!--Intro -->
-    <section id="fashcodei"></section>
+    <section id="Tcryptoi"></section>
 
     <!-- Blog Content -->
     <main class="container-fluid">
         <article class="row">
             <section class="col-xl-8 col-lg-8 col-md-10 col-sm-10 m-15px-tb">
 
-                <main id="softom"></main>
+                <main id="cryptom"></main>
 
             </section>
 
     <!-- Body Close -->
         </article>
     </main>
-
-    <section class="blog-content md-12 lg-12">
-    <p>
-                        Content Creation is more than just producing something<br>
-                        It is having and knowing the tools to do anything.</p>
-    </section>
 
     <!-- Footer -->
     <footer id="BEfooty"></footer>

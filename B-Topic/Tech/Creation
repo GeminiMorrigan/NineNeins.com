@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Code : FashCode</title>
+    <title>Tech : Creation</title>
     <style type="text/css"> @import url("../../../Frame/CSS/MainPage.css");</style>
 
 </head>
@@ -20,7 +20,7 @@
     <header id="sitehead"></header>
 
     <!--Intro -->
-    <section id="fashcodei"></section>
+    <section id="Tsoftwarei"></section>
 
     <!-- Blog Content -->
     <main class="container-fluid">
@@ -44,7 +44,7 @@
     <!-- Footer -->
     <footer id="BEfooty"></footer>
 
-    <script src="../../../Frame/JS/MainPageBlogExt.js" async></script>
+    <script src="../../Frame/JS/MainPageBlogExt.js" async></script>
         
     </body>
 </html>

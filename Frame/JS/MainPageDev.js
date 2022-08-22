@@ -25,19 +25,16 @@ return value;};django.interpolate=function(fmt,obj,named){if(named){return fmt.r
 
 /*!
  * NineNeins HotHide (http://https://www.NineNein.com)
- * Copyright 2015-2021 - Greying Error
+ * Copyright 2015-2022 - Greying Error
  * Licensed under MIT license
 */
 function copyContentsdc(){var e=$("<input>"),n=$("#doge_coin").text();$("body").append(e),e.val(n).select(),document.execCommand("copy"),window.alert("Doge Copied - Simply Paste and Send"),e.remove()}function copyContentsmc(){var e=$("<input>"),n=$("#monero_coin").text();$("body").append(e),e.val(n).select(),document.execCommand("copy"),window.alert("Monero Copied - Simply Paste and Send"),e.remove()}function copyContentsec(){var e=$("<input>"),n=$("#eth_coin").text();$("body").append(e),e.val(n).select(),document.execCommand("copy"),window.alert("Ethereum Copied - Simply Paste and Send"),e.remove()}function copyContentsbc(){var e=$("<input>"),n=$("#btc_coin").text();$("body").append(e),e.val(n).select(),document.execCommand("copy"),window.alert("Bitcoin Copied - Simply Paste and Send"),e.remove()}
 
-
-// Offset for Site Navigation
-$('#siteNav').affix({
-    offset: {
-        top: 100
-    }
-});
-
+/*!
+ * NineNeins Importer (http://https://www.NineNein.com)
+ * Copyright 2015-2022 - Greying Error
+ * Licensed under MIT license
+*/
 
 //Mobile Nav
 $(document).on('click','.navbar-collapse.in',function(e) {
@@ -46,6 +43,46 @@ $(document).on('click','.navbar-collapse.in',function(e) {
     }
 });
 
+// Offset for Site Navigation
+//Top Domain
+    //Main Navigation
+    $('#siteNav').affix({
+        offset: {
+            top: 100
+        }
+    });
+
+    //Shop
+    $('#FSsiteNav').affix({
+        offset: {
+            top: 100
+        }
+    });
+
+// Offset for Blog Site Navigation
+//Secondary Domain
+    //Blog Navigation
+    $('#BsiteNav').affix({
+        offset: {
+            top: 100
+        }
+    });
+
+// Offset Blog for Extension Site Navigation
+//Bottom Domain
+    //Blog Ext Navigation
+    $('#BEsiteNav').affix({
+        offset: {
+            top: 100
+        }
+    });
+
+    //LNST Navigation
+    $('#BlnstsiteNav').affix({
+        offset: {
+            top: 100
+        }
+    });
 
 //Importer
 $(document).ready(function(){
@@ -53,14 +90,34 @@ $(document).ready(function(){
     //Site
     $('#siteNav').load("./Import/PageInfo/Navigation/mainnav.html");
     $('#footy').load("./Import/PageInfo/Navigation/mainfoot.html");
+    //Fashshop
+    $('#FSsiteNav').load("../../Import/PageInfo/Navigation/mainnav.html");
+    $('#FSfooty').load("../../Import/PageInfo/Navigation/mainfoot.html");
+
+    //Blog
+    $('#BsiteNav').load("./../Import/PageInfo/Navigation/mainnav.html");
+    $('#Bfooty').load("./../Import/PageInfo/Navigation/mainfoot.html");
+
+    //Blog Ext
+    $('#BEsiteNav').load("./../../../Import/PageInfo/Navigation/mainnav.html");
+    $('#BEfooty').load("./../../../Import/PageInfo/Navigation/mainfoot.html");
+    $('#BlnstsiteNav').load("./../../../Import/PageInfo/Content/Blog/LNST/Navigation/mainnav-LNST.html");
+
+//**SideBars**
+    //Blog Ext
+    //LNST SideBar
+    $('#LNSTSideBar').load("../../../Import/PageInfo/Content/Blog/LNST/Navigation/lnstnav.html");
 
 //**Header**
     //Site
     $('#sitehead').load("./Import/PageInfo/Header/header.html");
-    //Shop
-    $('#shophead').load("./Import/PageInfo/Header/shopheader.html"); 
+    //Blog
+    $('#sitehead').load("./../Import/PageInfo/Header/header.html"); 
+    //Blog Ext
+    $('#sitehead').load("../../../Import/PageInfo/Header/header.html");
 
 //**Intros**
+    //Site
     //Home
     $('#homi').load("./Import/PageInfo/Intro/homeintro.html");
     //Books
@@ -75,45 +132,50 @@ $(document).ready(function(){
     $('#videoi').load("./Import/PageInfo/Intro/videointro.html");
     //Blog
     $('#blogi').load("./Import/PageInfo/Intro/blogintro.html");
-    //Blog
+    //Shop
     $('#shopi').load("./Import/PageInfo/Intro/shopintro.html");
+    //Powerlevel
+    $('#pli').load("./../FashShop/Intro/powerintro.html");    
     //$('#cryptoco').load("./Functions/cryptocheckout.html");
 
-//**Featured 3**
-    $('#patch').load("./Import/PageInfo/FeatSpon/mainspon.html");
-    $('#featv').load("./Import/PageInfo/FeatSpon/chanvid.html");
-
-//**HomePage**
-    $('#home-md').load("./Import/PageInfo/Content/Home/homemobdes.html");
-    //Video 
-    $('#vid-md').load("./Import/PageInfo/Content/Video/videomobdes.html");
-
-//**Scrollers**
-    //**Desktop**
-    //Books
-    $('#book-d').load("./Import/PageInfo/Content/Books/bookdes.html");
-    //Saints
-    $('#saint-d').load("./Import/PageInfo/Content/Books/Saints/saintdes.html");
-    //Music
-    $('#music-d').load("./Import/PageInfo/Content/Music/musicdes.html");
-    //Games
-    $('#arcade-d').load("./Import/PageInfo/Content/Arcade/gamedes.html");
-
-    //**Mobile**
-    //Books
-    $('#book-m').load("./Import/PageInfo/Content/Books/bookmob.html");
-    //Saints
-    $('#saint-m').load("./Import/PageInfo/Content/Books/Saints/saintmob.html");   
-    //Music
-    $('#music-m').load("./Import/PageInfo/Content/Music/musicmob.html");
-    //Games
-    $('#arcade-m').load("./Import/PageInfo/Content/Arcade/arcademob.html");
     //Blog
-    $('#blog-m').load("./Import/PageInfo/Content/Blog/blogmob.html");
-    //Shop
-    $('#shop-m').load("./Import/PageInfo/Content/Shop/shopmob.html");
+    $('#nineini').load("./../Import/PageInfo/Intro/nineneinintro.html");
+    $('#greyeri').load("./../Import/PageInfo/Intro/greyingintro.html");
+    $('#faqblgi').load("./../Import/PageInfo/Intro/faqintro.html");
+    //Inspiration
+    $('#moviei').load("./../../Import/PageInfo/Intro/movieintro.html");
+
+    //Blog Ext
+    //Tech
+        //CryptoTalk
+        $('#Tcryptoi').load("./../../../Import/PageInfo/Content/Blog/TECH/Intro/cryptotechintro.html");
+        //SoftWare
+        $('#Tsoftwarei').load("./../../../Import/PageInfo/Content/Blog/TECH/Intro/softwareintro.html");
+
+    //Fash Array
+        //FashCode
+        $('#fashcodei').load("./../../../Import/PageInfo/Intro/fashcodeintro.html");
+        //FashAudio
+        $('#fashaudi').load("./../../../Import/PageInfo/Intro/fashalongintro.html");
+        //FashPhoto
+        $('#fashphoi').load("./../../../Import/PageInfo/Intro/fashphotointro.html");
+
+    //Link NatSoc Theory
+        //Sypnosis
+        $('#syplnsti').load("./../../../Import/PageInfo/Content/Blog/LNST/Intro/sypnlnstintro.html");
+        //Shield
+        $('#shilnsti').load("./../../../Import/PageInfo/Content/Blog/LNST/Intro/shieldintro.html");
+        //TimeLine
+        $('#timelnsti').load("./../../../Import/PageInfo/Content/Blog/LNST/Intro/timelineintro.html");
+        //Triforce
+        $('#triflnsti').load("./../../../Import/PageInfo/Content/Blog/LNST/Intro/triforceintro.html");
+        //Race
+        $('#raclnsti').load("./../../../Import/PageInfo/Content/Blog/LNST/Intro/raceintro.html");
+        //Religion
+        $('#relilnsti').load("./../../../Import/PageInfo/Content/Blog/LNST/Intro/religionintro.html");
 
 //**ReadMore**
+//Site
     //Home
     $('#homew').load("./Import/PageInfo/ReadMore/homeinfowrap.html");
     //Books
@@ -128,134 +190,132 @@ $(document).ready(function(){
     $('#videow').load("./Import/PageInfo/ReadMore/videoinfowrap.html");
     //Blog
     $('#blogw').load("./Import/PageInfo/ReadMore/bloginfowrap.html");
-    //Blog
-    $('#shopw').load("./Import/PageInfo/ReadMore/shopinfowrap.html");
-    //$('#cryptoco').load("./Functions/cryptocheckout.html");
-    
-//**Shop**
-    //Intro
-    $('#pli').load("./../FashShop/Intro/powerintro.html");
     //Shop
-    $('#plshop-d').load("./../FashShop/Content/powerldes.html");
-    $('#plshop-m').load("./../FashShop/Content/powerlmob.html");
-    //InfoWrapDetails
+    $('#shopw').load("./Import/PageInfo/ReadMore/shopinfowrap.html");
+    //Powerlevel
     $('#cryptow').load("./../FashShop/ReadMore/cryptoinfowrap.html");
+    //$('#cryptoco').load("./Functions/cryptocheckout.html");
 
-    //**MobileHide-Scroll Stop**
-    $('#mhs').load("./js/Functions/hidemobilehold/hmhs.html");
-    $('#mhsb').load("../js/Functions/hidemobilehold/hmhs.html");
-
-});
-
-
-// Offset Blog Extension Site Navigation
-$('#BsiteNav').affix({
-    offset: {
-        top: 100
-    }
-});
-
-//Mobile Nav
-//$(document).on('click','.navbar-collapse.in',function(e) {
-//    if( $(e.target).is('a') ) {
-//        $(this).collapse('hide');
-//    }
-//});
-
-//Importer
-$(document).ready(function(){
-//**Navigation**
     //Blog
-    $('#BsiteNav').load("./../Import/PageInfo/Navigation/mainnav.html");
-    $('#Bfooty').load("./../Import/PageInfo/Navigation/mainfoot.html");
-//**Featured 3**
-    $('#Bpatch').load("./../Import/PageInfo/FeatSpon/mainspon.html");
-    $('#Bfeatv').load("./../Import/PageInfo/FeatSpon/chanvid.html");
-
-//**Main Pages**
-    //Intro
-    $('#nineini').load("./../Import/PageInfo/Intro/nineneinintro.html");
-    $('#greyeri').load("./../Import/PageInfo/Intro/greyingintro.html");
-    $('#faqblgi').load("./../Import/PageInfo/Intro/faqintro.html");
-
-//**Greying Error**
-    //** Mobile **
-    $('#ninein-m').load("./../Import/PageInfo/Content/Blog/nineneinmob.html");
-    $('#greyerm').load("./../Import/PageInfo/Content/Blog/greyingmob.html");
-    $('#faqblgi-m').load("./../Import/PageInfo/Content/Blog/faqmob.html");
-
-    //Intro
-    $('#moviei').load("./../Import/PageInfo/Intro/movieintro.html");
-    //Desk 
-    $('#movie-d').load("./../../Import/PageInfo/Content/Movie/movdes.html");
-    //Mobile
-    $('#movie-m').load("./../../Import/PageInfo/Content/Movie/movmob.html");
     //**ReadMore**
     $('#moview').load("./../../Import/PageInfo/ReadMore/movieinfowrap.html");
 
+//**Featured 3**
+    //Site
+    $('#patch').load("./Import/PageInfo/FeatSpon/mainspon.html");
+    $('#featv').load("./Import/PageInfo/FeatSpon/chanvid.html");
+
+    //Blog
+    $('#Bpatch').load("./../Import/PageInfo/FeatSpon/mainspon.html");
+    $('#Bfeatv').load("./../Import/PageInfo/FeatSpon/chanvid.html");
+
+//**Content**
+  //**Mobile Scroller**
+    //HomePage
+    $('#home-md').load("./Import/PageInfo/Content/Home/homemobdes.html");
+    //Books
+    $('#book-m').load("./Import/PageInfo/Content/Books/bookmob.html");
+    //Saints
+    $('#saint-m').load("./Import/PageInfo/Content/Books/Saints/saintmob.html");   
+    //Music
+    $('#music-m').load("./Import/PageInfo/Content/Music/musicmob.html");
+    //Games
+    $('#arcade-m').load("./Import/PageInfo/Content/Arcade/arcademob.html");
+    //Shop
+    $('#shop-m').load("./Import/PageInfo/Content/Shop/shopmob.html");
+    //Powerlevel
+    $('#plshop-m').load("./../FashShop/Content/powerlmob.html");
+    //Video 
+    $('#vid-md').load("./Import/PageInfo/Content/Video/videomobdes.html");
+    //Blog
+    $('#blog-m').load("./Import/PageInfo/Content/Blog/blogmob.html");
+
+    //**Desktop Scroller**
+        //Books
+        $('#book-d').load("./Import/PageInfo/Content/Books/bookdes.html");
+        //Saints
+        $('#saint-d').load("./Import/PageInfo/Content/Books/Saints/saintdes.html");
+        //Music
+        $('#music-d').load("./Import/PageInfo/Content/Music/musicdes.html");
+        //Games
+        $('#arcade-d').load("./Import/PageInfo/Content/Arcade/gamedes.html");
+        //Shop
+        $('#shop-d').load("./Import/PageInfo/Content/Shop/shopdes.html");
+        //Powerlevel
+        $('#plshop-d').load("./../FashShop/Content/powerldes.html");
 
 
-});
+    //Blog
+    //Mobile Scroller**
+    $('#movie-m').load("./../../Import/PageInfo/Content/Movie/movmob.html");
 
-// Offset Blog Extension Site Navigation
-$('#BEsiteNav').affix({
-    offset: {
-        top: 100
-    }
-});
+    //**Desktop Scroller
+        $('#movie-d').load("./../../Import/PageInfo/Content/Movie/movdes.html");
 
-//Mobile Nav
-//$(document).on('click','.navbar-collapse.in',function(e) {
-//    if( $(e.target).is('a') ) {
-//        $(this).collapse('hide');
-//    }
-//});
+    //BlogExt
+        //Sypnosis
+        $('#syplnstm').load("./../../../Import/PageInfo/Content/Blog/LNST/Bontent/sypnmob.html");
+        //Shield
+        $('#shielnstm').load("./../../../Import/PageInfo/Content/Blog/LNST/Bontent/shieldmob.html");
+        //TimeLine
+        $('#timelnstm').load("./../../../Import/PageInfo/Content/Blog/LNST/Bontent/timelinemob.html");
+        //Triforce
+        $('#triflnstm').load("./../../../Import/PageInfo/Content/Blog/LNST/Bontent/triforcemob.html");
+        //Race
+        $('#racilnstm').load("./../../../Import/PageInfo/Content/Blog/LNST/Bontent/racemob.html");
+        //Religion
+        $('#relilnstm').load("./../../../Import/PageInfo/Content/Blog/LNST/Bontent/religionmob.html");
 
-//Blog Extended Importer
-$(document).ready(function(){
-//**Extended BLOG TOPICS*
-//Nav
-    $('#BEsiteNav').load("./../../../Import/PageInfo/Navigation/mainnav.html");
-    $('#BEfooty').load("./../../../Import/PageInfo/Navigation/mainfoot.html");
-
-//Greying Error
-//Link NatSoc Theory
-//Intro
-    //Sypnosis
-    $('#syplnsti').load("./../../../Import/PageInfo/Content/Blog/LNST/Intro/sypnlnstintro.html");
-    //Shield
-    $('#shilnsti').load("./../../../Import/PageInfo/Content/Blog/LNST/Intro/shieldintro.html");
-    //TimeLine
-    $('#timelnsti').load("./../../../Import/PageInfo/Content/Blog/LNST/Intro/timelineintro.html");
-    //Triforce
-    $('#triflnsti').load("./../../../Import/PageInfo/Content/Blog/LNST/Intro/triforceintro.html");
-    //Race
-    $('#raclnsti').load("./../../../Import/PageInfo/Content/Blog/LNST/Intro/raceintro.html");
-    //Religion
-    $('#relilnsti').load("./../../../Import/PageInfo/Content/Blog/LNST/Intro/religionintro.html");
-
-//Mobile
-    //Sypnosis
-    $('#syplnst-m').load("./../../../Import/PageInfo/Content/Blog/LNST/Bontent/sypnmob.html");
-    //Shield
-    $('#shilnst-m').load("./../../../Import/PageInfo/Content/Blog/LNST/Bontent/sypnmob.html");
-    //TimeLine
-    $('#timelnst-m').load("./../../../Import/PageInfo/Content/Blog/LNST/Bontent/sypnmob.html");
-    //Triforce
-    $('#triflnst-m').load("./../../../Import/PageInfo/Content/Blog/LNST/Bontent/sypnmob.html");
-    //Race
-    $('#racilnst-m').load("./../../../Import/PageInfo/Content/Blog/LNST/Bontent/sypnmob.html");
-    //Religion
-    $('#relilnst-m').load("./../../../Import/PageInfo/Content/Blog/LNST/Bontent/sypnmob.html");
-
-
+//Extra Unused
     //**MobileHide-Scroll Stop**
     $('#mhs').load("./js/Functions/hidemobilehold/hmhs.html");
     $('#mhsb').load("../js/Functions/hidemobilehold/hmhs.html");
-    
+
 });
 
-    //**MobileHide-Scroll Stop**
-    $('#mhs').load("./js/Functions/hidemobilehold/hmhs.html");
-    $('#mhsb').load("../js/Functions/hidemobilehold/hmhs.html");
-});
+var topicsArray = [{
+    name: "Synopsis",
+    link: "/B-Topic/GreyingError/LNST/Synopsis",
+    image: "./Images/Blog/LNST/LNSTThumbs/NST-SypBlog.png"
+  },
+  {
+    name: "Timeline",
+    link: "/B-Topic/GreyingError/LNST/TimeLine",
+    image: "./Images/Blog/LNST/LNSTThumbs/NST-TimeBlog.png"
+  },
+  {
+    name: "Triforce",
+    link: "/B-Topic/GreyingError/LNST/TriForce",
+    image: "./Images/Blog/LNST/LNSTThumbs/NST-TriFBlog.png"
+  },
+  {
+    name: "Race",
+    link: "/B-Topic/GreyingError/LNST/Race",
+    image: "./Images/Blog/LNST/LNSTThumbs/NST-RaceBlog.png"
+  },
+  {
+    name: "Religion",
+    link: "/B-Topic/GreyingError/LNST/Religion",
+    image: "./Images/Blog/LNST/LNSTThumbs/NST-ReligionBlog.png"
+  },
+  {
+    name: "Shield",
+    link: "/B-Topic/GreyingError/LNST/Shield",
+    image: "./Images/Blog/LNST/LNSTThumbs/NST-ShieldBlog.png"
+  },
+  {
+    name: "Inspire",
+    link: "/B-Topic/GreyingError/LNST/Inspiration",
+    image: "./Images/Icons/Blog/Headers/Blog-Movie.png"
+  },
+  {
+    name: "Crypto",
+    link: "/B-Topic/GreyingError/LNST/Inspiration",
+    image: "./Images/Icons/Blog/Headers/Blog-Crypto.png"
+  },
+  {
+    name: "SoftWare",
+    link: "/B-Topic/GreyingError/LNST/Inspiration",
+    image: "./Images/Icons/Blog/Headers/Blog-Name.png"
+  }
+];
